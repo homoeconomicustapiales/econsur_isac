@@ -1,7 +1,6 @@
 // src/app/page.tsx
 import IsacSeriesAreaChart from '@/components/IsacSeriesAreaChart';
 import IsacInsumosAreaChart from '@/components/IsacInsumosAreaChart';
-import IsacVariacionesBarChart from '@/components/IsacVariacionesBarChart';
 import IsacVariacionRelativaHorizontalChart from '@/components/IsacVariacionRelativaHorizontalChart';
 import IsacEmpleoPermisosBarChart from '@/components/IsacEmpleoPermisosBarChart';
 
@@ -135,11 +134,9 @@ export default function IsacPage() {
         <div className="max-w-5xl mx-auto space-y-6">
           <IsacSeriesAreaChart data={ng} />
 
-          <IsacVariacionesBarChart data={ng} />
-
           <IsacInsumosAreaChart dataOrig={io} dataDesest={id} dataTend={it} />
 
-          <IsacVariacionRelativaHorizontalChart data={io} />
+          <IsacVariacionRelativaHorizontalChart data={io} dataNg={ng} />
 
           <IsacEmpleoPermisosBarChart dataEmpleo={em} dataPermisos={pe} />
         </div>
