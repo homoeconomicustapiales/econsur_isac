@@ -36,13 +36,19 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
   const combined = useMemo(() => {
     const permisosMap = new Map(dataPermisos.map((p) => [p.fecha, p]));
     return dataEmpleo
-      .map((e) => ({ ...e, ...permisosMap.get(e.fecha) }))
-      .filter((d: any) => d.superficie_m2 != null);
+      .map((e) => ({ ...e, ...permisosMap.get(e.fecha) }));
   }, [dataEmpleo, dataPermisos]);
+
+  const displayedData = useMemo(
+    () => combined.filter((d: any) =>
+      serieActiva === 'empleo' ? d.puestos_trabajo != null : d.superficie_m2 != null,
+    ),
+    [combined, serieActiva],
+  );
 
   const domainActivo = useMemo<[number, number]>(() => {
     const key = serieActiva === 'empleo' ? 'puestos_trabajo' : 'superficie_m2';
-    const values = combined
+    const values = displayedData
       .map((d: any) => d[key] as number)
       .filter((v) => Number.isFinite(v));
 
@@ -54,7 +60,7 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
 
     const padding = (max - min) * 0.08;
     return [Math.max(0, min - padding), max + padding];
-  }, [combined, serieActiva]);
+  }, [displayedData, serieActiva]);
 
   return (
     <section className="card">
@@ -88,7 +94,7 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
       </div>
 
       <ResponsiveContainer width="100%" height={380}>
-        <ComposedChart data={combined} margin={{ top: 5, right: 10, left: 0, bottom: 0 }}>
+        <ComposedChart data={displayedData} margin={{ top: 5, right: 10, left: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="rgba(203,213,225,0.2)" vertical={false} />
           <XAxis
             dataKey="fecha"
