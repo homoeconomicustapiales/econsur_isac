@@ -48,7 +48,9 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
   const [desde, setDesde] = useState(min);
   const [hasta, setHasta] = useState(max);
   const [scale, setScale] = useState<'auto' | 'zero'>('auto');
-  const [activas, setActivas] = useState<Set<string>>(new Set(INSUMO_KEYS));
+  
+  // CORRECCIÓN 1: Se añade el cast "as string[]" para asegurar compatibilidad con Set<string>
+  const [activas, setActivas] = useState<Set<string>>(new Set(INSUMO_KEYS as string[]));
 
   const filtered = useMemo(() => filtrarPorFecha(activeData, desde, hasta), [activeData, desde, hasta]);
 
@@ -60,7 +62,8 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
     });
 
   const toggleAll = () =>
-    setActivas(activas.size === INSUMO_KEYS.length ? new Set() : new Set(INSUMO_KEYS));
+    // CORRECCIÓN 2: Se añade el cast "as string[]" aquí también
+    setActivas(activas.size === INSUMO_KEYS.length ? new Set() : new Set(INSUMO_KEYS as string[]));
 
   return (
     <section className="card">
@@ -105,15 +108,15 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
         {INSUMO_KEYS.map((key, i) => (
           <button
             key={key}
-            onClick={() => toggleInsumo(key)}
+            onClick={() => toggleInsumo(key as string)}
             className={`px-2 py-0.5 rounded text-xs border transition-all ${
-              activas.has(key)
+              activas.has(key as string)
                 ? 'text-white border-transparent'
                 : 'bg-transparent text-slate-600 border-slate-800'
             }`}
-            style={activas.has(key) ? { backgroundColor: ISAC_COLORS[i], borderColor: ISAC_COLORS[i] } : {}}
+            style={activas.has(key as string) ? { backgroundColor: ISAC_COLORS[i], borderColor: ISAC_COLORS[i] } : {}}
           >
-            {INSUMOS_NOMBRES[key]}
+            {INSUMOS_NOMBRES[key as keyof typeof INSUMOS_NOMBRES]}
           </button>
         ))}
       </div>
@@ -139,12 +142,12 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
           />
           <Tooltip content={<CustomTooltip />} />
           {INSUMO_KEYS.map((key, i) =>
-            activas.has(key) ? (
+            activas.has(key as string) ? (
               <Line
                 key={key}
                 type="monotone"
-                dataKey={key}
-                name={INSUMOS_NOMBRES[key]}
+                dataKey={key as string}
+                name={INSUMOS_NOMBRES[key as keyof typeof INSUMOS_NOMBRES]}
                 stroke={ISAC_COLORS[i % ISAC_COLORS.length]}
                 strokeWidth={1.5}
                 dot={false}
