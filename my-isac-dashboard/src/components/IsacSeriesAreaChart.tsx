@@ -17,12 +17,12 @@ interface Props { data: IsacNivelGeneral[] }
 const CustomTooltip = ({ active, payload, label }: any) => {
   if (!active || !payload?.length) return null;
   return (
-    <div className="bg-slate-900 border border-slate-700 rounded-lg p-3 shadow-xl text-xs">
-      <p className="font-semibold text-slate-200 mb-2">{formatFechaMes(label)}</p>
+    <div className="bg-white border border-slate-200 rounded-lg p-3 shadow-lg text-xs">
+      <p className="font-semibold text-slate-800 mb-2">{formatFechaMes(label)}</p>
       {payload.map((p: any) => (
         <div key={p.dataKey} className="flex justify-between gap-4">
           <span style={{ color: p.color }}>{p.name}</span>
-          <span className="text-slate-200 font-mono">{formatNumero(p.value)}</span>
+          <span className="text-slate-600 font-mono">{formatNumero(p.value)}</span>
         </div>
       ))}
     </div>
@@ -73,7 +73,7 @@ export default function IsacSeriesAreaChart({ data }: Props) {
             className={`px-3 py-1 rounded-full text-xs border transition-all ${
               activas.has(s.key)
                 ? 'text-white border-transparent'
-                : 'bg-transparent text-slate-500 border-slate-700'
+                : 'bg-transparent text-slate-500 border-slate-300 hover:border-slate-400'
             }`}
             style={activas.has(s.key) ? { backgroundColor: s.color, borderColor: s.color } : {}}
           >
@@ -92,18 +92,18 @@ export default function IsacSeriesAreaChart({ data }: Props) {
               </linearGradient>
             ))}
           </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(203,213,225,0.2)" vertical={false} />
           <XAxis
             dataKey="fecha"
             tickFormatter={formatFechaMes}
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
-            axisLine={{ stroke: '#334155' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
+            axisLine={{ stroke: '#e2e8f0' }}
             tickLine={false}
             minTickGap={40}
           />
           <YAxis
             domain={scale === 'zero' ? [0, 'auto'] : ['auto', 'auto']}
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
             axisLine={false}
             tickLine={false}
             tickFormatter={(v) => formatNumero(v, 0)}

@@ -14,9 +14,9 @@ const CustomTooltip = ({ active, payload }: any) => {
   if (!active || !payload?.length) return null;
   const val = payload[0].value as number;
   return (
-    <div className="bg-slate-900 border border-slate-700 rounded-lg p-3 shadow-xl text-xs">
-      <p className="font-semibold text-slate-200 mb-1">{payload[0].payload.insumo}</p>
-      <p style={{ color: val >= 0 ? '#22c55e' : '#f43f5e' }}>
+    <div className="bg-white border border-slate-200 rounded-lg p-3 shadow-lg text-xs">
+      <p className="font-semibold text-slate-800 mb-1">{payload[0].payload.insumo}</p>
+      <p style={{ color: val >= 0 ? '#22c55e' : '#ef4444' }}>
         Var. mensual: {val >= 0 ? '+' : ''}{formatNumero(val)}%
       </p>
     </div>
@@ -45,29 +45,29 @@ export default function IsacVariacionRelativaHorizontalChart({ data }: Props) {
           layout="vertical"
           margin={{ top: 5, right: 40, left: 8, bottom: 0 }}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" horizontal={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(203,213,225,0.2)" horizontal={false} />
           <XAxis
             type="number"
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
-            axisLine={{ stroke: '#334155' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
+            axisLine={{ stroke: '#e2e8f0' }}
             tickLine={false}
             tickFormatter={(v) => `${v}%`}
           />
           <YAxis
             type="category"
             dataKey="insumo"
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
             axisLine={false}
             tickLine={false}
             width={130}
           />
           <Tooltip content={<CustomTooltip />} />
-          <ReferenceLine x={0} stroke="#475569" strokeWidth={1} />
+          <ReferenceLine x={0} stroke="#cbd5e1" strokeWidth={1} />
           <Bar dataKey="variacion" name="Var. mensual" radius={[0, 3, 3, 0]}>
             {variaciones.map((entry, index) => (
               <Cell
                 key={index}
-                fill={entry.variacion >= 0 ? '#0ea5e9' : '#f43f5e'}
+                fill={entry.variacion >= 0 ? '#3b82f6' : '#ef4444'}
                 fillOpacity={0.85}
               />
             ))}

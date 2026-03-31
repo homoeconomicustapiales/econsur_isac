@@ -3,20 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap');
-
 :root {
-  --bg-base: #0b0f1a;
-  --bg-surface: #111827;
-  --bg-elevated: #1e293b;
-  --border: #1e2d3d;
-  --border-accent: #334155;
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --text-muted: #475569;
-  --accent-blue: #0ea5e9;
+  --bg-base: rgb(248, 250, 252);
+  --bg-surface: #ffffff;
+  --bg-elevated: #ffffff;
+  --border: #e2e8f0;
+  --border-accent: #cbd5e1;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3af;
+  --accent-blue: #3b82f6;
   --accent-green: #22c55e;
-  --accent-red: #f43f5e;
+  --accent-red: #ef4444;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -24,7 +22,9 @@
 html, body {
   background-color: var(--bg-base);
   color: var(--text-primary);
-  font-family: 'DM Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,6 +40,7 @@ html, body {
     @apply rounded-xl border p-5 mb-6;
     background-color: var(--bg-surface);
     border-color: var(--border);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   }
 
   .card-header {
@@ -49,7 +50,6 @@ html, body {
   .chart-title {
     @apply text-base font-semibold;
     color: var(--text-primary);
-    font-family: 'DM Sans', sans-serif;
   }
 
   .chart-subtitle {
@@ -58,26 +58,23 @@ html, body {
   }
 
   .kpi-card {
-    @apply rounded-xl border p-4 flex flex-col gap-1;
-    background-color: var(--bg-elevated);
+    @apply rounded-xl border p-4 flex flex-col gap-2 shadow-sm hover:border-blue-300 transition-colors;
+    background-color: var(--bg-surface);
     border-color: var(--border);
   }
 
   .kpi-label {
-    @apply text-xs uppercase tracking-wider;
-    color: var(--text-muted);
-    font-family: 'Space Mono', monospace;
+    @apply text-xs uppercase tracking-wider font-semibold;
+    color: #94a3af;
   }
 
   .kpi-value {
     @apply text-2xl font-bold;
     color: var(--text-primary);
-    font-family: 'Space Mono', monospace;
   }
 
   .kpi-delta {
     @apply text-xs font-medium;
-    font-family: 'Space Mono', monospace;
   }
 
   .section-divider {

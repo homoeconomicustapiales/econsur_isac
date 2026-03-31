@@ -22,14 +22,14 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   if (!active || !payload?.length) return null;
   const sorted = [...payload].sort((a, b) => b.value - a.value);
   return (
-    <div className="bg-slate-900 border border-slate-700 rounded-lg p-3 shadow-xl text-xs max-h-64 overflow-y-auto">
-      <p className="font-semibold text-slate-200 mb-2 sticky top-0 bg-slate-900 pb-1">
+    <div className="bg-white border border-slate-200 rounded-lg p-3 shadow-lg text-xs max-h-64 overflow-y-auto">
+      <p className="font-semibold text-slate-800 mb-2 sticky top-0 bg-white pb-1">
         {formatFechaMes(label)}
       </p>
       {sorted.map((p: any) => (
         <div key={p.dataKey} className="flex justify-between gap-4">
           <span style={{ color: p.stroke }}>{p.name}</span>
-          <span className="text-slate-200 font-mono">{formatNumero(p.value)}</span>
+          <span className="text-slate-600 font-mono">{formatNumero(p.value)}</span>
         </div>
       ))}
     </div>
@@ -89,15 +89,15 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
             onClick={() => setTipo(k)}
             className={`px-3 py-1 rounded-full text-xs border transition-all ${
               tipo === k
-                ? 'bg-sky-600 border-sky-600 text-white'
-                : 'bg-transparent text-slate-400 border-slate-700 hover:border-sky-600'
+                ? 'bg-blue-600 border-blue-600 text-white'
+                : 'bg-transparent text-slate-500 border-slate-300 hover:border-slate-400'
             }`}
           >
             {label}
           </button>
         ))}
         <div className="ml-auto">
-          <button onClick={toggleAll} className="text-xs text-slate-500 hover:text-sky-400 transition-colors">
+          <button onClick={toggleAll} className="text-xs text-slate-500 hover:text-blue-600 transition-colors">
             {activas.size === INSUMO_KEYS.length ? 'Deseleccionar todo' : 'Seleccionar todo'}
           </button>
         </div>
@@ -112,7 +112,7 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
             className={`px-2 py-0.5 rounded text-xs border transition-all ${
               activas.has(key as string)
                 ? 'text-white border-transparent'
-                : 'bg-transparent text-slate-600 border-slate-800'
+                : 'bg-transparent text-slate-600 border-slate-300'
             }`}
             style={activas.has(key as string) ? { backgroundColor: ISAC_COLORS[i], borderColor: ISAC_COLORS[i] } : {}}
           >
@@ -123,18 +123,18 @@ export default function IsacInsumosAreaChart({ dataOrig, dataDesest, dataTend }:
 
       <ResponsiveContainer width="100%" height={400}>
         <LineChart data={filtered} margin={{ top: 5, right: 10, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(203,213,225,0.2)" vertical={false} />
           <XAxis
             dataKey="fecha"
             tickFormatter={formatFechaMes}
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
-            axisLine={{ stroke: '#334155' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
+            axisLine={{ stroke: '#e2e8f0' }}
             tickLine={false}
             minTickGap={40}
           />
           <YAxis
             domain={scale === 'zero' ? [0, 'auto'] : ['auto', 'auto']}
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
             axisLine={false}
             tickLine={false}
             tickFormatter={(v) => formatNumero(v, 0)}

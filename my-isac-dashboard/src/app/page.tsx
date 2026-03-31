@@ -26,7 +26,12 @@ function KpiCard({
   deltaLabel?: string;
   accent?: 'green' | 'red' | 'blue';
 }) {
-  const accentColor = accent === 'green' ? '#22c55e' : accent === 'red' ? '#f43f5e' : '#0ea5e9';
+  const colorMap = {
+    green: '#22c55e',
+    red: '#ef4444',
+    blue: '#3b82f6',
+  };
+  const accentColor = colorMap[accent || 'blue'];
   return (
     <div className="kpi-card">
       <span className="kpi-label">{label}</span>
@@ -34,7 +39,7 @@ function KpiCard({
       {delta && (
         <span
           className="kpi-delta"
-          style={{ color: delta.startsWith('+') ? '#22c55e' : '#f43f5e' }}
+          style={{ color: delta.startsWith('+') ? '#22c55e' : '#ef4444' }}
         >
           {delta} {deltaLabel}
         </span>
@@ -63,113 +68,90 @@ export default function IsacPage() {
   const lastPe = ultimoValor(pe, 'superficie_m2');
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-base)' }}>
+    <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <header
-        className="border-b px-6 py-5 flex flex-wrap justify-between items-end gap-4"
-        style={{ borderColor: 'var(--border)', backgroundColor: 'var(--bg-surface)' }}
-      >
-        <div>
-          <div className="flex items-center gap-3 mb-1">
-            <span
-              className="text-xs font-bold px-2 py-0.5 rounded uppercase tracking-widest"
-              style={{
-                backgroundColor: 'rgba(14,165,233,0.15)',
-                color: '#0ea5e9',
-                fontFamily: "'Space Mono', monospace",
-              }}
-            >
-              INDEC · ISAC
-            </span>
-          </div>
-          <h1
-            className="text-xl font-bold"
-            style={{ fontFamily: "'DM Sans', sans-serif", color: 'var(--text-primary)' }}
-          >
-            Índice Sintético de Actividad de la Construcción
-          </h1>
-          <p style={{ color: 'var(--text-muted)', fontSize: '12px', marginTop: '2px' }}>
-            Fuente: Instituto Nacional de Estadística y Censos · Argentina
-          </p>
-        </div>
-        {lastNg && (
-          <div
-            className="text-right"
-            style={{ fontFamily: "'Space Mono', monospace" }}
-          >
-            <p style={{ color: 'var(--text-muted)', fontSize: '11px' }}>Último dato disponible</p>
-            <p style={{ color: 'var(--text-primary)', fontSize: '14px', fontWeight: 600 }}>
-              {formatFechaMes(lastNg.fecha)}
+      <header className="border-b border-slate-200 px-6 py-5 bg-white">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-between items-start gap-4">
+          <div>
+            <div className="flex items-center gap-3 mb-1">
+              <span className="text-xs font-bold px-2 py-0.5 rounded uppercase tracking-widest bg-blue-50 text-blue-600">
+                INDEC · ISAC
+              </span>
+            </div>
+            <h1 className="text-2xl font-bold text-slate-800">
+              Índice Sintético de Actividad de la Construcción
+            </h1>
+            <p className="text-slate-500 text-sm mt-1">
+              Análisis sectorial · Fuente: Instituto Nacional de Estadística y Censos · Argentina
             </p>
           </div>
-        )}
+          {lastNg && (
+            <div className="text-right">
+              <p className="text-xs text-slate-400 uppercase tracking-wider">Último dato disponible</p>
+              <p className="text-slate-800 text-sm font-semibold mt-0.5">
+                {formatFechaMes(lastNg.fecha)}
+              </p>
+            </div>
+          )}
+        </div>
       </header>
 
       {/* KPIs */}
-      <div className="px-6 py-5 grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {lastNg && (
+      <div className="px-6 py-6 bg-slate-50">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {lastNg && (
+            <KpiCard
+              label="ISAC · Original"
+              value={formatNumero(lastNg.valor as number)}
+              delta={varIa ? `${Number(varIa) >= 0 ? '+' : ''}${varIa}%` : undefined}
+              deltaLabel="vs. i.a."
+              accent={varIa ? (Number(varIa) >= 0 ? 'green' : 'red') : 'blue'}
+            />
+          )}
+          {lastEm && (
+            <KpiCard
+              label="Puestos de Trabajo"
+              value={formatNumero(lastEm.valor as number, 0)}
+              accent="blue"
+            />
+          )}
+          {lastPe && (
+            <KpiCard
+              label="Superficie Permisada"
+              value={`${formatNumero((lastPe.valor as number) / 1000, 0)}k m²`}
+              accent="green"
+            />
+          )}
           <KpiCard
-            label="ISAC · Original"
-            value={formatNumero(lastNg.valor as number)}
-            delta={varIa ? `${Number(varIa) >= 0 ? '+' : ''}${varIa}%` : undefined}
-            deltaLabel="vs. i.a."
-            accent={varIa ? (Number(varIa) >= 0 ? 'green' : 'red') : 'blue'}
-          />
-        )}
-        {lastEm && (
-          <KpiCard
-            label="Puestos de Trabajo"
-            value={formatNumero(lastEm.valor as number, 0)}
+            label="Series disponibles"
+            value={`${ng.length} meses`}
             accent="blue"
           />
-        )}
-        {lastPe && (
-          <KpiCard
-            label="Superficie Permisada"
-            value={`${formatNumero((lastPe.valor as number) / 1000, 0)}k m²`}
-            accent="green"
-          />
-        )}
-        <KpiCard
-          label="Series disponibles"
-          value={`${ng.length} meses`}
-          accent="blue"
-        />
+        </div>
       </div>
 
       {/* Charts */}
       <main className="px-6 pb-10">
-        <IsacSeriesAreaChart data={ng} />
+        <div className="max-w-5xl mx-auto space-y-6">
+          <IsacSeriesAreaChart data={ng} />
 
-        <div className="section-divider" />
+          <IsacVariacionesBarChart data={ng} />
 
-        <IsacVariacionesBarChart data={ng} />
+          <IsacInsumosAreaChart dataOrig={io} dataDesest={id} dataTend={it} />
 
-        <div className="section-divider" />
+          <IsacVariacionRelativaHorizontalChart data={io} />
 
-        <IsacInsumosAreaChart dataOrig={io} dataDesest={id} dataTend={it} />
-
-        <div className="section-divider" />
-
-        <IsacVariacionRelativaHorizontalChart data={io} />
-
-        <div className="section-divider" />
-
-        <IsacEmpleoPermisosBarChart dataEmpleo={em} dataPermisos={pe} />
+          <IsacEmpleoPermisosBarChart dataEmpleo={em} dataPermisos={pe} />
+        </div>
       </main>
 
       {/* Footer */}
-      <footer
-        className="border-t px-6 py-4 text-center"
-        style={{
-          borderColor: 'var(--border)',
-          backgroundColor: 'var(--bg-surface)',
-          color: 'var(--text-muted)',
-          fontSize: '11px',
-          fontFamily: "'Space Mono', monospace",
-        }}
-      >
-        Dashboard ISAC · Datos INDEC Argentina · econsur-isac
+      <footer className="border-t border-slate-200 px-6 py-4 bg-white text-center">
+        <div className="max-w-5xl mx-auto">
+          <p className="text-xs text-slate-400 uppercase tracking-wider">
+            Fuente: INDEC — Instituto Nacional de Estadística y Censos
+          </p>
+        </div>
       </footer>
     </div>
   );

@@ -16,12 +16,12 @@ interface Props {
 const CustomTooltip = ({ active, payload, label }: any) => {
   if (!active || !payload?.length) return null;
   return (
-    <div className="bg-slate-900 border border-slate-700 rounded-lg p-3 shadow-xl text-xs">
-      <p className="font-semibold text-slate-200 mb-2">{formatFechaMes(label)}</p>
+    <div className="bg-white border border-slate-200 rounded-lg p-3 shadow-lg text-xs">
+      <p className="font-semibold text-slate-800 mb-2">{formatFechaMes(label)}</p>
       {payload.map((p: any) => (
         <div key={p.dataKey} className="flex justify-between gap-4">
           <span style={{ color: p.color ?? p.fill }}>{p.name}</span>
-          <span className="text-slate-200 font-mono">{formatNumero(p.value, 0)}</span>
+          <span className="text-slate-600 font-mono">{formatNumero(p.value, 0)}</span>
         </div>
       ))}
     </div>
@@ -47,19 +47,19 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
 
       <ResponsiveContainer width="100%" height={380}>
         <ComposedChart data={combined} margin={{ top: 5, right: 10, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(203,213,225,0.2)" vertical={false} />
           <XAxis
             dataKey="fecha"
             tickFormatter={formatFechaMes}
-            tick={{ fontSize: 11, fill: '#94a3b8' }}
-            axisLine={{ stroke: '#334155' }}
+            tick={{ fontSize: 11, fill: '#64748b' }}
+            axisLine={{ stroke: '#e2e8f0' }}
             tickLine={false}
             minTickGap={40}
           />
           <YAxis
             yAxisId="left"
             orientation="left"
-            tick={{ fontSize: 11, fill: '#0ea5e9' }}
+            tick={{ fontSize: 11, fill: '#3b82f6' }}
             axisLine={false}
             tickLine={false}
             tickFormatter={(v) => formatNumero(v, 0)}
@@ -76,13 +76,13 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
           />
           <Tooltip content={<CustomTooltip />} />
           <Legend
-            wrapperStyle={{ fontSize: '12px', color: '#94a3b8', paddingTop: '12px' }}
+            wrapperStyle={{ fontSize: '12px', color: '#64748b', paddingTop: '12px' }}
           />
           <Bar
             yAxisId="left"
             dataKey="puestos_trabajo"
             name="Puestos de Trabajo"
-            fill="#0ea5e9"
+            fill="#3b82f6"
             fillOpacity={0.75}
             radius={[2, 2, 0, 0]}
           />
