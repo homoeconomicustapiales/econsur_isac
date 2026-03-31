@@ -1,0 +1,7 @@
+Coloca aquí el archivo isac.xlsx descargado desde:
+https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31
+
+Una vez colocado el archivo, ejecuta desde la raíz del proyecto:
+  cd my-isac-dashboard && python scripts/processor.py
+
+O simplemente hace un push al repositorio para que GitHub Actions lo procese automáticamente.

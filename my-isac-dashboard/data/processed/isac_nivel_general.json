@@ -1,0 +1,938 @@
+[
+  {
+    "fecha": "2012-01-01",
+    "original": 98.8,
+    "desestacionalizada": 99.7,
+    "tendencia_ciclo": 100.7
+  },
+  {
+    "fecha": "2012-02-01",
+    "original": 103.0,
+    "desestacionalizada": 99.5,
+    "tendencia_ciclo": 100.5
+  },
+  {
+    "fecha": "2012-03-01",
+    "original": 91.7,
+    "desestacionalizada": 99.2,
+    "tendencia_ciclo": 100.2
+  },
+  {
+    "fecha": "2012-04-01",
+    "original": 98.6,
+    "desestacionalizada": 99.9,
+    "tendencia_ciclo": 100.9
+  },
+  {
+    "fecha": "2012-05-01",
+    "original": 100.0,
+    "desestacionalizada": 99.5,
+    "tendencia_ciclo": 100.5
+  },
+  {
+    "fecha": "2012-06-01",
+    "original": 105.7,
+    "desestacionalizada": 99.9,
+    "tendencia_ciclo": 100.9
+  },
+  {
+    "fecha": "2012-07-01",
+    "original": 101.8,
+    "desestacionalizada": 101.2,
+    "tendencia_ciclo": 102.2
+  },
+  {
+    "fecha": "2012-08-01",
+    "original": 94.7,
+    "desestacionalizada": 99.8,
+    "tendencia_ciclo": 100.8
+  },
+  {
+    "fecha": "2012-09-01",
+    "original": 106.8,
+    "desestacionalizada": 100.3,
+    "tendencia_ciclo": 101.3
+  },
+  {
+    "fecha": "2012-10-01",
+    "original": 99.8,
+    "desestacionalizada": 100.3,
+    "tendencia_ciclo": 101.3
+  },
+  {
+    "fecha": "2012-11-01",
+    "original": 94.1,
+    "desestacionalizada": 101.4,
+    "tendencia_ciclo": 102.4
+  },
+  {
+    "fecha": "2012-12-01",
+    "original": 103.2,
+    "desestacionalizada": 100.8,
+    "tendencia_ciclo": 101.8
+  },
+  {
+    "fecha": "2013-01-01",
+    "original": 101.3,
+    "desestacionalizada": 102.5,
+    "tendencia_ciclo": 103.5
+  },
+  {
+    "fecha": "2013-02-01",
+    "original": 104.5,
+    "desestacionalizada": 103.3,
+    "tendencia_ciclo": 104.3
+  },
+  {
+    "fecha": "2013-03-01",
+    "original": 99.3,
+    "desestacionalizada": 104.8,
+    "tendencia_ciclo": 105.8
+  },
+  {
+    "fecha": "2013-04-01",
+    "original": 98.4,
+    "desestacionalizada": 106.0,
+    "tendencia_ciclo": 107.0
+  },
+  {
+    "fecha": "2013-05-01",
+    "original": 97.7,
+    "desestacionalizada": 100.7,
+    "tendencia_ciclo": 101.7
+  },
+  {
+    "fecha": "2013-06-01",
+    "original": 103.3,
+    "desestacionalizada": 98.9,
+    "tendencia_ciclo": 99.9
+  },
+  {
+    "fecha": "2013-07-01",
+    "original": 94.1,
+    "desestacionalizada": 100.2,
+    "tendencia_ciclo": 101.2
+  },
+  {
+    "fecha": "2013-08-01",
+    "original": 96.9,
+    "desestacionalizada": 101.9,
+    "tendencia_ciclo": 102.9
+  },
+  {
+    "fecha": "2013-09-01",
+    "original": 100.3,
+    "desestacionalizada": 101.8,
+    "tendencia_ciclo": 102.8
+  },
+  {
+    "fecha": "2013-10-01",
+    "original": 106.1,
+    "desestacionalizada": 102.0,
+    "tendencia_ciclo": 103.0
+  },
+  {
+    "fecha": "2013-11-01",
+    "original": 105.0,
+    "desestacionalizada": 103.3,
+    "tendencia_ciclo": 104.3
+  },
+  {
+    "fecha": "2013-12-01",
+    "original": 107.0,
+    "desestacionalizada": 104.6,
+    "tendencia_ciclo": 105.6
+  },
+  {
+    "fecha": "2014-01-01",
+    "original": 99.7,
+    "desestacionalizada": 103.3,
+    "tendencia_ciclo": 104.3
+  },
+  {
+    "fecha": "2014-02-01",
+    "original": 104.9,
+    "desestacionalizada": 102.4,
+    "tendencia_ciclo": 103.4
+  },
+  {
+    "fecha": "2014-03-01",
+    "original": 113.6,
+    "desestacionalizada": 101.9,
+    "tendencia_ciclo": 102.9
+  },
+  {
+    "fecha": "2014-04-01",
+    "original": 94.7,
+    "desestacionalizada": 100.2,
+    "tendencia_ciclo": 101.2
+  },
+  {
+    "fecha": "2014-05-01",
+    "original": 108.9,
+    "desestacionalizada": 101.8,
+    "tendencia_ciclo": 102.8
+  },
+  {
+    "fecha": "2014-06-01",
+    "original": 107.0,
+    "desestacionalizada": 102.8,
+    "tendencia_ciclo": 103.8
+  },
+  {
+    "fecha": "2014-07-01",
+    "original": 105.2,
+    "desestacionalizada": 105.6,
+    "tendencia_ciclo": 106.6
+  },
+  {
+    "fecha": "2014-08-01",
+    "original": 100.1,
+    "desestacionalizada": 102.8,
+    "tendencia_ciclo": 103.8
+  },
+  {
+    "fecha": "2014-09-01",
+    "original": 97.5,
+    "desestacionalizada": 104.7,
+    "tendencia_ciclo": 105.7
+  },
+  {
+    "fecha": "2014-10-01",
+    "original": 106.0,
+    "desestacionalizada": 104.8,
+    "tendencia_ciclo": 105.8
+  },
+  {
+    "fecha": "2014-11-01",
+    "original": 107.7,
+    "desestacionalizada": 104.1,
+    "tendencia_ciclo": 105.1
+  },
+  {
+    "fecha": "2014-12-01",
+    "original": 116.9,
+    "desestacionalizada": 105.3,
+    "tendencia_ciclo": 106.3
+  },
+  {
+    "fecha": "2015-01-01",
+    "original": 103.5,
+    "desestacionalizada": 106.5,
+    "tendencia_ciclo": 107.5
+  },
+  {
+    "fecha": "2015-02-01",
+    "original": 101.3,
+    "desestacionalizada": 105.4,
+    "tendencia_ciclo": 106.4
+  },
+  {
+    "fecha": "2015-03-01",
+    "original": 104.5,
+    "desestacionalizada": 107.3,
+    "tendencia_ciclo": 108.3
+  },
+  {
+    "fecha": "2015-04-01",
+    "original": 110.9,
+    "desestacionalizada": 107.2,
+    "tendencia_ciclo": 108.2
+  },
+  {
+    "fecha": "2015-05-01",
+    "original": 104.3,
+    "desestacionalizada": 105.7,
+    "tendencia_ciclo": 106.7
+  },
+  {
+    "fecha": "2015-06-01",
+    "original": 96.6,
+    "desestacionalizada": 102.0,
+    "tendencia_ciclo": 103.0
+  },
+  {
+    "fecha": "2015-07-01",
+    "original": 103.0,
+    "desestacionalizada": 100.9,
+    "tendencia_ciclo": 101.9
+  },
+  {
+    "fecha": "2015-08-01",
+    "original": 103.2,
+    "desestacionalizada": 103.3,
+    "tendencia_ciclo": 104.3
+  },
+  {
+    "fecha": "2015-09-01",
+    "original": 104.7,
+    "desestacionalizada": 103.8,
+    "tendencia_ciclo": 104.8
+  },
+  {
+    "fecha": "2015-10-01",
+    "original": 110.5,
+    "desestacionalizada": 106.0,
+    "tendencia_ciclo": 107.0
+  },
+  {
+    "fecha": "2015-11-01",
+    "original": 101.5,
+    "desestacionalizada": 106.5,
+    "tendencia_ciclo": 107.5
+  },
+  {
+    "fecha": "2015-12-01",
+    "original": 110.2,
+    "desestacionalizada": 108.3,
+    "tendencia_ciclo": 109.3
+  },
+  {
+    "fecha": "2016-01-01",
+    "original": 110.6,
+    "desestacionalizada": 110.8,
+    "tendencia_ciclo": 111.8
+  },
+  {
+    "fecha": "2016-02-01",
+    "original": 112.9,
+    "desestacionalizada": 114.7,
+    "tendencia_ciclo": 115.7
+  },
+  {
+    "fecha": "2016-03-01",
+    "original": 118.5,
+    "desestacionalizada": 117.9,
+    "tendencia_ciclo": 118.9
+  },
+  {
+    "fecha": "2016-04-01",
+    "original": 111.2,
+    "desestacionalizada": 116.9,
+    "tendencia_ciclo": 117.9
+  },
+  {
+    "fecha": "2016-05-01",
+    "original": 123.7,
+    "desestacionalizada": 116.6,
+    "tendencia_ciclo": 117.6
+  },
+  {
+    "fecha": "2016-06-01",
+    "original": 121.6,
+    "desestacionalizada": 118.2,
+    "tendencia_ciclo": 119.2
+  },
+  {
+    "fecha": "2016-07-01",
+    "original": 117.0,
+    "desestacionalizada": 113.4,
+    "tendencia_ciclo": 114.4
+  },
+  {
+    "fecha": "2016-08-01",
+    "original": 111.8,
+    "desestacionalizada": 114.5,
+    "tendencia_ciclo": 115.5
+  },
+  {
+    "fecha": "2016-09-01",
+    "original": 113.3,
+    "desestacionalizada": 113.3,
+    "tendencia_ciclo": 114.3
+  },
+  {
+    "fecha": "2016-10-01",
+    "original": 111.5,
+    "desestacionalizada": 116.7,
+    "tendencia_ciclo": 117.7
+  },
+  {
+    "fecha": "2016-11-01",
+    "original": 122.7,
+    "desestacionalizada": 115.9,
+    "tendencia_ciclo": 116.9
+  },
+  {
+    "fecha": "2016-12-01",
+    "original": 113.2,
+    "desestacionalizada": 115.0,
+    "tendencia_ciclo": 116.0
+  },
+  {
+    "fecha": "2017-01-01",
+    "original": 109.0,
+    "desestacionalizada": 115.2,
+    "tendencia_ciclo": 116.2
+  },
+  {
+    "fecha": "2017-02-01",
+    "original": 109.6,
+    "desestacionalizada": 115.6,
+    "tendencia_ciclo": 116.6
+  },
+  {
+    "fecha": "2017-03-01",
+    "original": 117.4,
+    "desestacionalizada": 117.4,
+    "tendencia_ciclo": 118.4
+  },
+  {
+    "fecha": "2017-04-01",
+    "original": 123.4,
+    "desestacionalizada": 122.0,
+    "tendencia_ciclo": 123.0
+  },
+  {
+    "fecha": "2017-05-01",
+    "original": 118.2,
+    "desestacionalizada": 124.7,
+    "tendencia_ciclo": 125.7
+  },
+  {
+    "fecha": "2017-06-01",
+    "original": 126.1,
+    "desestacionalizada": 124.5,
+    "tendencia_ciclo": 125.5
+  },
+  {
+    "fecha": "2017-07-01",
+    "original": 119.5,
+    "desestacionalizada": 127.9,
+    "tendencia_ciclo": 128.9
+  },
+  {
+    "fecha": "2017-08-01",
+    "original": 132.9,
+    "desestacionalizada": 129.9,
+    "tendencia_ciclo": 130.9
+  },
+  {
+    "fecha": "2017-09-01",
+    "original": 136.6,
+    "desestacionalizada": 133.0,
+    "tendencia_ciclo": 134.0
+  },
+  {
+    "fecha": "2017-10-01",
+    "original": 130.5,
+    "desestacionalizada": 133.1,
+    "tendencia_ciclo": 134.1
+  },
+  {
+    "fecha": "2017-11-01",
+    "original": 131.6,
+    "desestacionalizada": 130.6,
+    "tendencia_ciclo": 131.6
+  },
+  {
+    "fecha": "2017-12-01",
+    "original": 140.3,
+    "desestacionalizada": 130.2,
+    "tendencia_ciclo": 131.2
+  },
+  {
+    "fecha": "2018-01-01",
+    "original": 130.6,
+    "desestacionalizada": 129.0,
+    "tendencia_ciclo": 130.0
+  },
+  {
+    "fecha": "2018-02-01",
+    "original": 123.9,
+    "desestacionalizada": 125.9,
+    "tendencia_ciclo": 126.9
+  },
+  {
+    "fecha": "2018-03-01",
+    "original": 130.5,
+    "desestacionalizada": 126.4,
+    "tendencia_ciclo": 127.4
+  },
+  {
+    "fecha": "2018-04-01",
+    "original": 129.1,
+    "desestacionalizada": 129.3,
+    "tendencia_ciclo": 130.3
+  },
+  {
+    "fecha": "2018-05-01",
+    "original": 129.3,
+    "desestacionalizada": 127.0,
+    "tendencia_ciclo": 128.0
+  },
+  {
+    "fecha": "2018-06-01",
+    "original": 130.5,
+    "desestacionalizada": 128.1,
+    "tendencia_ciclo": 129.1
+  },
+  {
+    "fecha": "2018-07-01",
+    "original": 132.3,
+    "desestacionalizada": 126.7,
+    "tendencia_ciclo": 127.7
+  },
+  {
+    "fecha": "2018-08-01",
+    "original": 130.3,
+    "desestacionalizada": 126.8,
+    "tendencia_ciclo": 127.8
+  },
+  {
+    "fecha": "2018-09-01",
+    "original": 132.4,
+    "desestacionalizada": 129.4,
+    "tendencia_ciclo": 130.4
+  },
+  {
+    "fecha": "2018-10-01",
+    "original": 140.7,
+    "desestacionalizada": 130.0,
+    "tendencia_ciclo": 131.0
+  },
+  {
+    "fecha": "2018-11-01",
+    "original": 129.0,
+    "desestacionalizada": 130.5,
+    "tendencia_ciclo": 131.5
+  },
+  {
+    "fecha": "2018-12-01",
+    "original": 138.1,
+    "desestacionalizada": 130.7,
+    "tendencia_ciclo": 131.7
+  },
+  {
+    "fecha": "2019-01-01",
+    "original": 133.5,
+    "desestacionalizada": 130.9,
+    "tendencia_ciclo": 131.9
+  },
+  {
+    "fecha": "2019-02-01",
+    "original": 130.7,
+    "desestacionalizada": 133.3,
+    "tendencia_ciclo": 134.3
+  },
+  {
+    "fecha": "2019-03-01",
+    "original": 131.4,
+    "desestacionalizada": 129.9,
+    "tendencia_ciclo": 130.9
+  },
+  {
+    "fecha": "2019-04-01",
+    "original": 127.3,
+    "desestacionalizada": 130.3,
+    "tendencia_ciclo": 131.3
+  },
+  {
+    "fecha": "2019-05-01",
+    "original": 135.1,
+    "desestacionalizada": 132.1,
+    "tendencia_ciclo": 133.1
+  },
+  {
+    "fecha": "2019-06-01",
+    "original": 132.7,
+    "desestacionalizada": 130.1,
+    "tendencia_ciclo": 131.1
+  },
+  {
+    "fecha": "2019-07-01",
+    "original": 122.3,
+    "desestacionalizada": 129.7,
+    "tendencia_ciclo": 130.7
+  },
+  {
+    "fecha": "2019-08-01",
+    "original": 130.4,
+    "desestacionalizada": 130.6,
+    "tendencia_ciclo": 131.6
+  },
+  {
+    "fecha": "2019-09-01",
+    "original": 131.7,
+    "desestacionalizada": 129.1,
+    "tendencia_ciclo": 130.1
+  },
+  {
+    "fecha": "2019-10-01",
+    "original": 127.2,
+    "desestacionalizada": 130.1,
+    "tendencia_ciclo": 131.1
+  },
+  {
+    "fecha": "2019-11-01",
+    "original": 135.9,
+    "desestacionalizada": 130.9,
+    "tendencia_ciclo": 131.9
+  },
+  {
+    "fecha": "2019-12-01",
+    "original": 131.3,
+    "desestacionalizada": 129.4,
+    "tendencia_ciclo": 130.4
+  },
+  {
+    "fecha": "2020-01-01",
+    "original": 140.8,
+    "desestacionalizada": 129.4,
+    "tendencia_ciclo": 130.4
+  },
+  {
+    "fecha": "2020-02-01",
+    "original": 129.2,
+    "desestacionalizada": 125.7,
+    "tendencia_ciclo": 126.7
+  },
+  {
+    "fecha": "2020-03-01",
+    "original": 124.6,
+    "desestacionalizada": 125.1,
+    "tendencia_ciclo": 126.1
+  },
+  {
+    "fecha": "2020-04-01",
+    "original": 128.9,
+    "desestacionalizada": 128.9,
+    "tendencia_ciclo": 129.9
+  },
+  {
+    "fecha": "2020-05-01",
+    "original": 131.2,
+    "desestacionalizada": 133.4,
+    "tendencia_ciclo": 134.4
+  },
+  {
+    "fecha": "2020-06-01",
+    "original": 131.6,
+    "desestacionalizada": 134.1,
+    "tendencia_ciclo": 135.1
+  },
+  {
+    "fecha": "2020-07-01",
+    "original": 133.0,
+    "desestacionalizada": 132.7,
+    "tendencia_ciclo": 133.7
+  },
+  {
+    "fecha": "2020-08-01",
+    "original": 133.2,
+    "desestacionalizada": 132.2,
+    "tendencia_ciclo": 133.2
+  },
+  {
+    "fecha": "2020-09-01",
+    "original": 138.0,
+    "desestacionalizada": 127.9,
+    "tendencia_ciclo": 128.9
+  },
+  {
+    "fecha": "2020-10-01",
+    "original": 136.3,
+    "desestacionalizada": 127.6,
+    "tendencia_ciclo": 128.6
+  },
+  {
+    "fecha": "2020-11-01",
+    "original": 127.1,
+    "desestacionalizada": 125.6,
+    "tendencia_ciclo": 126.6
+  },
+  {
+    "fecha": "2020-12-01",
+    "original": 127.6,
+    "desestacionalizada": 131.9,
+    "tendencia_ciclo": 132.9
+  },
+  {
+    "fecha": "2021-01-01",
+    "original": 126.2,
+    "desestacionalizada": 128.9,
+    "tendencia_ciclo": 129.9
+  },
+  {
+    "fecha": "2021-02-01",
+    "original": 133.3,
+    "desestacionalizada": 129.9,
+    "tendencia_ciclo": 130.9
+  },
+  {
+    "fecha": "2021-03-01",
+    "original": 131.2,
+    "desestacionalizada": 132.5,
+    "tendencia_ciclo": 133.5
+  },
+  {
+    "fecha": "2021-04-01",
+    "original": 127.1,
+    "desestacionalizada": 129.3,
+    "tendencia_ciclo": 130.3
+  },
+  {
+    "fecha": "2021-05-01",
+    "original": 134.1,
+    "desestacionalizada": 131.7,
+    "tendencia_ciclo": 132.7
+  },
+  {
+    "fecha": "2021-06-01",
+    "original": 127.6,
+    "desestacionalizada": 127.8,
+    "tendencia_ciclo": 128.8
+  },
+  {
+    "fecha": "2021-07-01",
+    "original": 141.3,
+    "desestacionalizada": 130.6,
+    "tendencia_ciclo": 131.6
+  },
+  {
+    "fecha": "2021-08-01",
+    "original": 133.3,
+    "desestacionalizada": 131.7,
+    "tendencia_ciclo": 132.7
+  },
+  {
+    "fecha": "2021-09-01",
+    "original": 125.0,
+    "desestacionalizada": 129.3,
+    "tendencia_ciclo": 130.3
+  },
+  {
+    "fecha": "2021-10-01",
+    "original": 131.9,
+    "desestacionalizada": 129.4,
+    "tendencia_ciclo": 130.4
+  },
+  {
+    "fecha": "2021-11-01",
+    "original": 128.1,
+    "desestacionalizada": 130.5,
+    "tendencia_ciclo": 131.5
+  },
+  {
+    "fecha": "2021-12-01",
+    "original": 124.3,
+    "desestacionalizada": 128.2,
+    "tendencia_ciclo": 129.2
+  },
+  {
+    "fecha": "2022-01-01",
+    "original": 129.1,
+    "desestacionalizada": 125.9,
+    "tendencia_ciclo": 126.9
+  },
+  {
+    "fecha": "2022-02-01",
+    "original": 119.6,
+    "desestacionalizada": 121.3,
+    "tendencia_ciclo": 122.3
+  },
+  {
+    "fecha": "2022-03-01",
+    "original": 129.8,
+    "desestacionalizada": 122.2,
+    "tendencia_ciclo": 123.2
+  },
+  {
+    "fecha": "2022-04-01",
+    "original": 127.3,
+    "desestacionalizada": 122.3,
+    "tendencia_ciclo": 123.3
+  },
+  {
+    "fecha": "2022-05-01",
+    "original": 117.8,
+    "desestacionalizada": 121.5,
+    "tendencia_ciclo": 122.5
+  },
+  {
+    "fecha": "2022-06-01",
+    "original": 127.8,
+    "desestacionalizada": 120.2,
+    "tendencia_ciclo": 121.2
+  },
+  {
+    "fecha": "2022-07-01",
+    "original": 124.6,
+    "desestacionalizada": 122.2,
+    "tendencia_ciclo": 123.2
+  },
+  {
+    "fecha": "2022-08-01",
+    "original": 128.7,
+    "desestacionalizada": 128.8,
+    "tendencia_ciclo": 129.8
+  },
+  {
+    "fecha": "2022-09-01",
+    "original": 131.6,
+    "desestacionalizada": 130.1,
+    "tendencia_ciclo": 131.1
+  },
+  {
+    "fecha": "2022-10-01",
+    "original": 141.2,
+    "desestacionalizada": 129.6,
+    "tendencia_ciclo": 130.6
+  },
+  {
+    "fecha": "2022-11-01",
+    "original": 125.6,
+    "desestacionalizada": 132.6,
+    "tendencia_ciclo": 133.6
+  },
+  {
+    "fecha": "2022-12-01",
+    "original": 134.0,
+    "desestacionalizada": 131.8,
+    "tendencia_ciclo": 132.8
+  },
+  {
+    "fecha": "2023-01-01",
+    "original": 126.7,
+    "desestacionalizada": 133.4,
+    "tendencia_ciclo": 134.4
+  },
+  {
+    "fecha": "2023-02-01",
+    "original": 119.4,
+    "desestacionalizada": 128.9,
+    "tendencia_ciclo": 129.9
+  },
+  {
+    "fecha": "2023-03-01",
+    "original": 128.2,
+    "desestacionalizada": 128.7,
+    "tendencia_ciclo": 129.7
+  },
+  {
+    "fecha": "2023-04-01",
+    "original": 125.6,
+    "desestacionalizada": 129.4,
+    "tendencia_ciclo": 130.4
+  },
+  {
+    "fecha": "2023-05-01",
+    "original": 116.9,
+    "desestacionalizada": 127.0,
+    "tendencia_ciclo": 128.0
+  },
+  {
+    "fecha": "2023-06-01",
+    "original": 129.5,
+    "desestacionalizada": 127.6,
+    "tendencia_ciclo": 128.6
+  },
+  {
+    "fecha": "2023-07-01",
+    "original": 133.6,
+    "desestacionalizada": 129.6,
+    "tendencia_ciclo": 130.6
+  },
+  {
+    "fecha": "2023-08-01",
+    "original": 136.0,
+    "desestacionalizada": 129.2,
+    "tendencia_ciclo": 130.2
+  },
+  {
+    "fecha": "2023-09-01",
+    "original": 125.7,
+    "desestacionalizada": 129.0,
+    "tendencia_ciclo": 130.0
+  },
+  {
+    "fecha": "2023-10-01",
+    "original": 125.0,
+    "desestacionalizada": 127.9,
+    "tendencia_ciclo": 128.9
+  },
+  {
+    "fecha": "2023-11-01",
+    "original": 124.4,
+    "desestacionalizada": 123.6,
+    "tendencia_ciclo": 124.6
+  },
+  {
+    "fecha": "2023-12-01",
+    "original": 122.3,
+    "desestacionalizada": 124.1,
+    "tendencia_ciclo": 125.1
+  },
+  {
+    "fecha": "2024-01-01",
+    "original": 124.5,
+    "desestacionalizada": 122.7,
+    "tendencia_ciclo": 123.7
+  },
+  {
+    "fecha": "2024-02-01",
+    "original": 126.3,
+    "desestacionalizada": 126.1,
+    "tendencia_ciclo": 127.1
+  },
+  {
+    "fecha": "2024-03-01",
+    "original": 122.1,
+    "desestacionalizada": 125.1,
+    "tendencia_ciclo": 126.1
+  },
+  {
+    "fecha": "2024-04-01",
+    "original": 118.6,
+    "desestacionalizada": 125.0,
+    "tendencia_ciclo": 126.0
+  },
+  {
+    "fecha": "2024-05-01",
+    "original": 125.0,
+    "desestacionalizada": 124.7,
+    "tendencia_ciclo": 125.7
+  },
+  {
+    "fecha": "2024-06-01",
+    "original": 133.1,
+    "desestacionalizada": 128.4,
+    "tendencia_ciclo": 129.4
+  },
+  {
+    "fecha": "2024-07-01",
+    "original": 126.9,
+    "desestacionalizada": 130.5,
+    "tendencia_ciclo": 131.5
+  },
+  {
+    "fecha": "2024-08-01",
+    "original": 126.1,
+    "desestacionalizada": 131.8,
+    "tendencia_ciclo": 132.8
+  },
+  {
+    "fecha": "2024-09-01",
+    "original": 134.5,
+    "desestacionalizada": 132.4,
+    "tendencia_ciclo": 133.4
+  },
+  {
+    "fecha": "2024-10-01",
+    "original": 140.9,
+    "desestacionalizada": 130.9,
+    "tendencia_ciclo": 131.9
+  },
+  {
+    "fecha": "2024-11-01",
+    "original": 122.5,
+    "desestacionalizada": 132.0,
+    "tendencia_ciclo": 133.0
+  },
+  {
+    "fecha": "2024-12-01",
+    "original": 131.1,
+    "desestacionalizada": 133.1,
+    "tendencia_ciclo": 134.1
+  }
+]

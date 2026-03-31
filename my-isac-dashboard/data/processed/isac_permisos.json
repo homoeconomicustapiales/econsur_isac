@@ -1,0 +1,242 @@
+[
+  {
+    "fecha": "2021-01-01",
+    "superficie_m2": 1265222.0,
+    "permisos_cantidad": 5551
+  },
+  {
+    "fecha": "2021-02-01",
+    "superficie_m2": 1263257.0,
+    "permisos_cantidad": 7426
+  },
+  {
+    "fecha": "2021-03-01",
+    "superficie_m2": 1323364.0,
+    "permisos_cantidad": 4235
+  },
+  {
+    "fecha": "2021-04-01",
+    "superficie_m2": 1451873.0,
+    "permisos_cantidad": 6377
+  },
+  {
+    "fecha": "2021-05-01",
+    "superficie_m2": 1509840.0,
+    "permisos_cantidad": 7694
+  },
+  {
+    "fecha": "2021-06-01",
+    "superficie_m2": 1501080.0,
+    "permisos_cantidad": 6034
+  },
+  {
+    "fecha": "2021-07-01",
+    "superficie_m2": 1418125.0,
+    "permisos_cantidad": 7753
+  },
+  {
+    "fecha": "2021-08-01",
+    "superficie_m2": 1506867.0,
+    "permisos_cantidad": 4702
+  },
+  {
+    "fecha": "2021-09-01",
+    "superficie_m2": 1549553.0,
+    "permisos_cantidad": 6648
+  },
+  {
+    "fecha": "2021-10-01",
+    "superficie_m2": 1552325.0,
+    "permisos_cantidad": 7256
+  },
+  {
+    "fecha": "2021-11-01",
+    "superficie_m2": 1503455.0,
+    "permisos_cantidad": 7467
+  },
+  {
+    "fecha": "2021-12-01",
+    "superficie_m2": 1386816.0,
+    "permisos_cantidad": 8892
+  },
+  {
+    "fecha": "2022-01-01",
+    "superficie_m2": 1385416.0,
+    "permisos_cantidad": 4481
+  },
+  {
+    "fecha": "2022-02-01",
+    "superficie_m2": 1421189.0,
+    "permisos_cantidad": 4426
+  },
+  {
+    "fecha": "2022-03-01",
+    "superficie_m2": 1392072.0,
+    "permisos_cantidad": 6902
+  },
+  {
+    "fecha": "2022-04-01",
+    "superficie_m2": 1442850.0,
+    "permisos_cantidad": 8967
+  },
+  {
+    "fecha": "2022-05-01",
+    "superficie_m2": 1636987.0,
+    "permisos_cantidad": 8900
+  },
+  {
+    "fecha": "2022-06-01",
+    "superficie_m2": 1559165.0,
+    "permisos_cantidad": 4372
+  },
+  {
+    "fecha": "2022-07-01",
+    "superficie_m2": 1653922.0,
+    "permisos_cantidad": 7120
+  },
+  {
+    "fecha": "2022-08-01",
+    "superficie_m2": 1657115.0,
+    "permisos_cantidad": 6478
+  },
+  {
+    "fecha": "2022-09-01",
+    "superficie_m2": 1775258.0,
+    "permisos_cantidad": 5083
+  },
+  {
+    "fecha": "2022-10-01",
+    "superficie_m2": 1758462.0,
+    "permisos_cantidad": 8583
+  },
+  {
+    "fecha": "2022-11-01",
+    "superficie_m2": 1807094.0,
+    "permisos_cantidad": 5391
+  },
+  {
+    "fecha": "2022-12-01",
+    "superficie_m2": 1819948.0,
+    "permisos_cantidad": 8126
+  },
+  {
+    "fecha": "2023-01-01",
+    "superficie_m2": 1747203.0,
+    "permisos_cantidad": 7834
+  },
+  {
+    "fecha": "2023-02-01",
+    "superficie_m2": 1750478.0,
+    "permisos_cantidad": 5080
+  },
+  {
+    "fecha": "2023-03-01",
+    "superficie_m2": 1856945.0,
+    "permisos_cantidad": 7546
+  },
+  {
+    "fecha": "2023-04-01",
+    "superficie_m2": 1924182.0,
+    "permisos_cantidad": 5161
+  },
+  {
+    "fecha": "2023-05-01",
+    "superficie_m2": 1919650.0,
+    "permisos_cantidad": 5047
+  },
+  {
+    "fecha": "2023-06-01",
+    "superficie_m2": 1988859.0,
+    "permisos_cantidad": 8089
+  },
+  {
+    "fecha": "2023-07-01",
+    "superficie_m2": 2093946.0,
+    "permisos_cantidad": 6953
+  },
+  {
+    "fecha": "2023-08-01",
+    "superficie_m2": 1984380.0,
+    "permisos_cantidad": 7523
+  },
+  {
+    "fecha": "2023-09-01",
+    "superficie_m2": 1950744.0,
+    "permisos_cantidad": 6160
+  },
+  {
+    "fecha": "2023-10-01",
+    "superficie_m2": 2111010.0,
+    "permisos_cantidad": 8235
+  },
+  {
+    "fecha": "2023-11-01",
+    "superficie_m2": 2045828.0,
+    "permisos_cantidad": 6584
+  },
+  {
+    "fecha": "2023-12-01",
+    "superficie_m2": 2201774.0,
+    "permisos_cantidad": 8024
+  },
+  {
+    "fecha": "2024-01-01",
+    "superficie_m2": 2205706.0,
+    "permisos_cantidad": 7604
+  },
+  {
+    "fecha": "2024-02-01",
+    "superficie_m2": 2160057.0,
+    "permisos_cantidad": 4435
+  },
+  {
+    "fecha": "2024-03-01",
+    "superficie_m2": 2170092.0,
+    "permisos_cantidad": 5500
+  },
+  {
+    "fecha": "2024-04-01",
+    "superficie_m2": 2194942.0,
+    "permisos_cantidad": 4293
+  },
+  {
+    "fecha": "2024-05-01",
+    "superficie_m2": 2147963.0,
+    "permisos_cantidad": 7826
+  },
+  {
+    "fecha": "2024-06-01",
+    "superficie_m2": 2156849.0,
+    "permisos_cantidad": 7575
+  },
+  {
+    "fecha": "2024-07-01",
+    "superficie_m2": 2283576.0,
+    "permisos_cantidad": 8054
+  },
+  {
+    "fecha": "2024-08-01",
+    "superficie_m2": 2396758.0,
+    "permisos_cantidad": 4334
+  },
+  {
+    "fecha": "2024-09-01",
+    "superficie_m2": 2172940.0,
+    "permisos_cantidad": 8594
+  },
+  {
+    "fecha": "2024-10-01",
+    "superficie_m2": 2259093.0,
+    "permisos_cantidad": 7974
+  },
+  {
+    "fecha": "2024-11-01",
+    "superficie_m2": 2221378.0,
+    "permisos_cantidad": 5212
+  },
+  {
+    "fecha": "2024-12-01",
+    "superficie_m2": 2231630.0,
+    "permisos_cantidad": 5012
+  }
+]
