@@ -1,5 +1,5 @@
 // src/utils/calculations.ts
-import { IsacInsumo, InsumoKey } from '@/types/isac';
+import { IsacInsumo } from '@/types/isac';
 import { INSUMO_KEYS, INSUMOS_NOMBRES } from './constants';
 
 /** Calcula la variación relativa del último mes vs el anterior para cada insumo */
@@ -9,10 +9,17 @@ export function calcularVariacionRelativa(
   if (data.length < 2) return [];
   const last = data[data.length - 1];
   const prev = data[data.length - 2];
-  return INSUMO_KEYS.map((key) => ({
-    insumo: INSUMOS_NOMBRES[key],
-    variacion: parseFloat((((last[key] - prev[key]) / prev[key]) * 100).toFixed(2)),
-  })).sort((a, b) => b.variacion - a.variacion);
+
+  return INSUMO_KEYS.map((key) => {
+    // Forzamos a TypeScript a tratar los valores como números para la operación aritmética
+    const vLast = last[key] as number;
+    const vPrev = prev[key] as number;
+    
+    return {
+      insumo: INSUMOS_NOMBRES[key],
+      variacion: parseFloat((((vLast - vPrev) / vPrev) * 100).toFixed(2)),
+    };
+  }).sort((a, b) => b.variacion - a.variacion);
 }
 
 /** Filtra un array de datos por rango de fechas */
