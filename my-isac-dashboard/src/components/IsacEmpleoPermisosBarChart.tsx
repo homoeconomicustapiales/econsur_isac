@@ -1,9 +1,9 @@
 'use client';
 // src/components/IsacEmpleoPermisosBarChart.tsx
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import {
   ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid,
-  Tooltip, Legend, ResponsiveContainer,
+  Tooltip, ResponsiveContainer,
 } from 'recharts';
 import { IsacPuestosTrabajo, IsacPermisos } from '@/types/isac';
 import { formatFechaMes, formatNumero } from '@/utils/formatters';
@@ -12,6 +12,8 @@ interface Props {
   dataEmpleo: IsacPuestosTrabajo[];
   dataPermisos: IsacPermisos[];
 }
+
+type SerieActiva = 'empleo' | 'permisos';
 
 const CustomTooltip = ({ active, payload, label }: any) => {
   if (!active || !payload?.length) return null;
@@ -29,6 +31,8 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 };
 
 export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }: Props) {
+  const [serieActiva, setSerieActiva] = useState<SerieActiva>('empleo');
+
   const combined = useMemo(() => {
     const permisosMap = new Map(dataPermisos.map((p) => [p.fecha, p]));
     return dataEmpleo
@@ -36,12 +40,50 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
       .filter((d: any) => d.superficie_m2 != null);
   }, [dataEmpleo, dataPermisos]);
 
+  const domainActivo = useMemo<[number, number]>(() => {
+    const key = serieActiva === 'empleo' ? 'puestos_trabajo' : 'superficie_m2';
+    const values = combined
+      .map((d: any) => d[key] as number)
+      .filter((v) => Number.isFinite(v));
+
+    if (!values.length) return [0, 1];
+
+    const min = Math.min(...values);
+    const max = Math.max(...values);
+    if (min === max) return [min * 0.95, max * 1.05 + 1];
+
+    const padding = (max - min) * 0.08;
+    return [Math.max(0, min - padding), max + padding];
+  }, [combined, serieActiva]);
+
   return (
     <section className="card">
       <div className="card-header">
         <div>
           <h2 className="chart-title">Empleo y Permisos de Edificación</h2>
-          <p className="chart-subtitle">Puestos de trabajo registrados y superficie permisada (m²)</p>
+          <p className="chart-subtitle">Seleccioná la serie para visualizarla por separado</p>
+        </div>
+        <div className="flex gap-2 flex-wrap">
+          <button
+            onClick={() => setSerieActiva('empleo')}
+            className={`px-3 py-1 rounded-full text-xs border transition-all ${
+              serieActiva === 'empleo'
+                ? 'bg-blue-600 border-blue-600 text-white'
+                : 'bg-transparent text-slate-500 border-slate-300 hover:border-slate-400'
+            }`}
+          >
+            Puestos de Trabajo
+          </button>
+          <button
+            onClick={() => setSerieActiva('permisos')}
+            className={`px-3 py-1 rounded-full text-xs border transition-all ${
+              serieActiva === 'permisos'
+                ? 'bg-green-600 border-green-600 text-white'
+                : 'bg-transparent text-slate-500 border-slate-300 hover:border-slate-400'
+            }`}
+          >
+            Superficie (m²)
+          </button>
         </div>
       </div>
 
@@ -64,6 +106,8 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
             tickLine={false}
             tickFormatter={(v) => formatNumero(v, 0)}
             width={65}
+            hide={serieActiva !== 'empleo'}
+            domain={serieActiva === 'empleo' ? domainActivo : undefined}
           />
           <YAxis
             yAxisId="right"
@@ -73,29 +117,32 @@ export default function IsacEmpleoPermisosBarChart({ dataEmpleo, dataPermisos }:
             tickLine={false}
             tickFormatter={(v) => formatNumero(v, 0)}
             width={75}
+            hide={serieActiva !== 'permisos'}
+            domain={serieActiva === 'permisos' ? domainActivo : undefined}
           />
           <Tooltip content={<CustomTooltip />} />
-          <Legend
-            wrapperStyle={{ fontSize: '12px', color: '#64748b', paddingTop: '12px' }}
-          />
-          <Bar
-            yAxisId="left"
-            dataKey="puestos_trabajo"
-            name="Puestos de Trabajo"
-            fill="#3b82f6"
-            fillOpacity={0.75}
-            radius={[2, 2, 0, 0]}
-          />
-          <Line
-            yAxisId="right"
-            type="monotone"
-            dataKey="superficie_m2"
-            name="Superficie (m²)"
-            stroke="#22c55e"
-            strokeWidth={2}
-            dot={false}
-            activeDot={{ r: 4, strokeWidth: 0 }}
-          />
+          {serieActiva === 'empleo' && (
+            <Bar
+              yAxisId="left"
+              dataKey="puestos_trabajo"
+              name="Puestos de Trabajo"
+              fill="#3b82f6"
+              fillOpacity={0.8}
+              radius={[2, 2, 0, 0]}
+            />
+          )}
+          {serieActiva === 'permisos' && (
+            <Line
+              yAxisId="right"
+              type="monotone"
+              dataKey="superficie_m2"
+              name="Superficie (m²)"
+              stroke="#22c55e"
+              strokeWidth={2.5}
+              dot={false}
+              activeDot={{ r: 4, strokeWidth: 0 }}
+            />
+          )}
         </ComposedChart>
       </ResponsiveContainer>
     </section>
