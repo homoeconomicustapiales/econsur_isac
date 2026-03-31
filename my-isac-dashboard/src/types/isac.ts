@@ -5,8 +5,8 @@ export interface IsacNivelGeneral {
   original: number;
   desestacionalizada: number;
   tendencia_ciclo: number;
-  // Añade esta línea:
-  [key: string]: string | number | undefined;
+  // Firma de índice compatible con funciones de cálculo (sin undefined)
+  [key: string]: string | number;
 }
 
 export interface IsacInsumo {
@@ -24,21 +24,21 @@ export interface IsacInsumo {
   placas_yeso: number;
   yeso: number;
   resto: number;
-  // También añade esta línea por si usas variaciones en insumos:
-  [key: string]: string | number | undefined;
+  // Firma de índice para permitir acceso dinámico a los insumos
+  [key: string]: string | number;
 }
 
 export interface IsacPuestosTrabajo {
   fecha: string;
   puestos_trabajo: number;
-  [key: string]: string | number | undefined;
+  [key: string]: string | number;
 }
 
 export interface IsacPermisos {
   fecha: string;
   superficie_m2: number;
   permisos_cantidad: number;
-  [key: string]: string | number | undefined;
+  [key: string]: string | number;
 }
 
 export type InsumoKey = keyof Omit<IsacInsumo, 'fecha'>;
