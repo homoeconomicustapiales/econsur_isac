@@ -1,1008 +1,1014 @@
 [
   {
     "fecha":"2012-01-01",
+    "original":169.9071198282,
+    "desestacionalizada":181.8285713774,
+    "tendencia_ciclo":"\/\/\/"
+  },
+  {
+    "fecha":"2012-02-01",
     "original":151.7667788141,
     "desestacionalizada":171.87294116,
     "tendencia_ciclo":-0.3555000339
   },
   {
-    "fecha":"2012-02-01",
+    "fecha":"2012-03-01",
     "original":188.2022403475,
     "desestacionalizada":182.0785059365,
     "tendencia_ciclo":-0.3952313453
   },
   {
-    "fecha":"2012-03-01",
+    "fecha":"2012-04-01",
     "original":164.2439778176,
     "desestacionalizada":172.3042224971,
     "tendencia_ciclo":-0.4150380239
   },
   {
-    "fecha":"2012-04-01",
+    "fecha":"2012-05-01",
     "original":175.1915703905,
     "desestacionalizada":174.4305625178,
     "tendencia_ciclo":-0.4036887833
   },
   {
-    "fecha":"2012-05-01",
+    "fecha":"2012-06-01",
     "original":173.6291980076,
     "desestacionalizada":176.4471911791,
     "tendencia_ciclo":-0.3321605002
   },
   {
-    "fecha":"2012-06-01",
+    "fecha":"2012-07-01",
     "original":169.5866130453,
     "desestacionalizada":170.5275252614,
     "tendencia_ciclo":-0.1798155915
   },
   {
-    "fecha":"2012-07-01",
+    "fecha":"2012-08-01",
     "original":173.5998152201,
     "desestacionalizada":161.7031638668,
     "tendencia_ciclo":0.0362816462
   },
   {
-    "fecha":"2012-08-01",
+    "fecha":"2012-09-01",
     "original":172.5773131747,
     "desestacionalizada":167.4073773197,
     "tendencia_ciclo":0.2849127423
   },
   {
-    "fecha":"2012-09-01",
+    "fecha":"2012-10-01",
     "original":184.7702969399,
     "desestacionalizada":163.525771532,
     "tendencia_ciclo":0.6000571451
   },
   {
-    "fecha":"2012-10-01",
+    "fecha":"2012-11-01",
     "original":187.2855929757,
     "desestacionalizada":172.1801721028,
     "tendencia_ciclo":0.9474557833
   },
   {
-    "fecha":"2012-11-01",
+    "fecha":"2012-12-01",
     "original":164.2112588757,
     "desestacionalizada":179.7129104422,
     "tendencia_ciclo":1.2669938996
   },
   {
-    "fecha":"2012-12-01",
+    "fecha":"2013-01-01",
     "original":171.4025142536,
     "desestacionalizada":179.964815924,
     "tendencia_ciclo":1.4788177314
   },
   {
-    "fecha":"2013-01-01",
+    "fecha":"2013-02-01",
     "original":161.2459782267,
     "desestacionalizada":184.4605239837,
     "tendencia_ciclo":1.516202992
   },
   {
-    "fecha":"2013-02-01",
+    "fecha":"2013-03-01",
     "original":187.5686837433,
     "desestacionalizada":187.6871932869,
     "tendencia_ciclo":1.3752848504
   },
   {
-    "fecha":"2013-03-01",
+    "fecha":"2013-04-01",
     "original":187.1394729993,
     "desestacionalizada":189.9030314513,
     "tendencia_ciclo":1.0984876789
   },
   {
-    "fecha":"2013-04-01",
+    "fecha":"2013-05-01",
     "original":198.6576587165,
     "desestacionalizada":196.3681090624,
     "tendencia_ciclo":0.7639271718
   },
   {
-    "fecha":"2013-05-01",
+    "fecha":"2013-06-01",
     "original":180.2414126781,
     "desestacionalizada":190.0696550187,
     "tendencia_ciclo":0.4523916081
   },
   {
-    "fecha":"2013-06-01",
+    "fecha":"2013-07-01",
     "original":190.5252716371,
     "desestacionalizada":187.8942646093,
     "tendencia_ciclo":0.2323035479
   },
   {
-    "fecha":"2013-07-01",
+    "fecha":"2013-08-01",
     "original":200.3800490628,
     "desestacionalizada":191.3618343513,
     "tendencia_ciclo":0.1122692727
   },
   {
-    "fecha":"2013-08-01",
+    "fecha":"2013-09-01",
     "original":196.9968790319,
     "desestacionalizada":187.5075177571,
     "tendencia_ciclo":0.0442863563
   },
   {
-    "fecha":"2013-09-01",
+    "fecha":"2013-10-01",
     "original":207.7966534095,
     "desestacionalizada":185.7496282683,
     "tendencia_ciclo":-0.0202118257
   },
   {
-    "fecha":"2013-10-01",
+    "fecha":"2013-11-01",
     "original":197.5267475107,
     "desestacionalizada":186.6100731024,
     "tendencia_ciclo":-0.112783392
   },
   {
-    "fecha":"2013-11-01",
+    "fecha":"2013-12-01",
     "original":185.2479791648,
     "desestacionalizada":195.6194414709,
     "tendencia_ciclo":-0.243687648
   },
   {
-    "fecha":"2013-12-01",
+    "fecha":"2014-01-01",
     "original":180.9585886891,
     "desestacionalizada":188.7638357462,
     "tendencia_ciclo":-0.3942159126
   },
   {
-    "fecha":"2014-01-01",
+    "fecha":"2014-02-01",
     "original":166.9075826197,
     "desestacionalizada":188.806513797,
     "tendencia_ciclo":-0.5246231552
   },
   {
-    "fecha":"2014-02-01",
+    "fecha":"2014-03-01",
     "original":181.7390581219,
     "desestacionalizada":183.3828162619,
     "tendencia_ciclo":-0.5860376397
   },
   {
-    "fecha":"2014-03-01",
+    "fecha":"2014-04-01",
     "original":181.5402655614,
     "desestacionalizada":183.7472895746,
     "tendencia_ciclo":-0.5327391011
   },
   {
-    "fecha":"2014-04-01",
+    "fecha":"2014-05-01",
     "original":182.0759249221,
     "desestacionalizada":184.5455784674,
     "tendencia_ciclo":-0.3602400055
   },
   {
-    "fecha":"2014-05-01",
+    "fecha":"2014-06-01",
     "original":178.1721630053,
     "desestacionalizada":184.847294342,
     "tendencia_ciclo":-0.1227168003
   },
   {
-    "fecha":"2014-06-01",
+    "fecha":"2014-07-01",
     "original":184.287196637,
     "desestacionalizada":181.4928807576,
     "tendencia_ciclo":0.111959322
   },
   {
-    "fecha":"2014-07-01",
+    "fecha":"2014-08-01",
     "original":185.3455858326,
     "desestacionalizada":181.6415065697,
     "tendencia_ciclo":0.2984751331
   },
   {
-    "fecha":"2014-08-01",
+    "fecha":"2014-09-01",
     "original":204.4546801577,
     "desestacionalizada":188.4674547374,
     "tendencia_ciclo":0.4303066751
   },
   {
-    "fecha":"2014-09-01",
+    "fecha":"2014-10-01",
     "original":215.2661471239,
     "desestacionalizada":191.4889085261,
     "tendencia_ciclo":0.5330704662
   },
   {
-    "fecha":"2014-10-01",
+    "fecha":"2014-11-01",
     "original":193.1066032111,
     "desestacionalizada":188.6985762988,
     "tendencia_ciclo":0.650903979
   },
   {
-    "fecha":"2014-11-01",
+    "fecha":"2014-12-01",
     "original":176.0459238032,
     "desestacionalizada":182.7502797385,
     "tendencia_ciclo":0.8325234175
   },
   {
-    "fecha":"2014-12-01",
+    "fecha":"2015-01-01",
     "original":175.1590405994,
     "desestacionalizada":187.9924373024,
     "tendencia_ciclo":1.0568307561
   },
   {
-    "fecha":"2015-01-01",
+    "fecha":"2015-02-01",
     "original":173.093498218,
     "desestacionalizada":196.4737746036,
     "tendencia_ciclo":1.2776837361
   },
   {
-    "fecha":"2015-02-01",
+    "fecha":"2015-03-01",
     "original":190.9442465432,
     "desestacionalizada":187.2335178171,
     "tendencia_ciclo":1.3873510476
   },
   {
-    "fecha":"2015-03-01",
+    "fecha":"2015-04-01",
     "original":201.9176772938,
     "desestacionalizada":204.9607022981,
     "tendencia_ciclo":1.313819877
   },
   {
-    "fecha":"2015-04-01",
+    "fecha":"2015-05-01",
     "original":192.3660989764,
     "desestacionalizada":200.8463570584,
     "tendencia_ciclo":1.0292963513
   },
   {
-    "fecha":"2015-05-01",
+    "fecha":"2015-06-01",
     "original":203.0705525008,
     "desestacionalizada":204.4931219368,
     "tendencia_ciclo":0.5925686799
   },
   {
-    "fecha":"2015-06-01",
+    "fecha":"2015-07-01",
     "original":207.2893243997,
     "desestacionalizada":202.826403377,
     "tendencia_ciclo":0.0548818571
   },
   {
-    "fecha":"2015-07-01",
+    "fecha":"2015-08-01",
     "original":195.7600210613,
     "desestacionalizada":192.0985098246,
     "tendencia_ciclo":-0.5288033959
   },
   {
-    "fecha":"2015-08-01",
+    "fecha":"2015-09-01",
     "original":218.6177728206,
     "desestacionalizada":201.0395601247,
     "tendencia_ciclo":-1.0963084361
   },
   {
-    "fecha":"2015-09-01",
+    "fecha":"2015-10-01",
     "original":221.101399796,
     "desestacionalizada":201.6065765036,
     "tendencia_ciclo":-1.6084993444
   },
   {
-    "fecha":"2015-10-01",
+    "fecha":"2015-11-01",
     "original":204.4105408477,
     "desestacionalizada":195.8115775084,
     "tendencia_ciclo":-2.0375918291
   },
   {
-    "fecha":"2015-11-01",
+    "fecha":"2015-12-01",
     "original":179.4174644701,
     "desestacionalizada":186.9032292565,
     "tendencia_ciclo":-2.3607989131
   },
   {
-    "fecha":"2015-12-01",
+    "fecha":"2016-01-01",
     "original":167.3778979363,
     "desestacionalizada":186.3198607278,
     "tendencia_ciclo":-2.5628185982
   },
   {
-    "fecha":"2016-01-01",
+    "fecha":"2016-02-01",
     "original":159.0953725529,
     "desestacionalizada":181.369384317,
     "tendencia_ciclo":-2.6221983516
   },
   {
-    "fecha":"2016-02-01",
+    "fecha":"2016-03-01",
     "original":173.4847681285,
     "desestacionalizada":166.6548234548,
     "tendencia_ciclo":-2.5387228064
   },
   {
-    "fecha":"2016-03-01",
+    "fecha":"2016-04-01",
     "original":152.157466593,
     "desestacionalizada":158.6971874998,
     "tendencia_ciclo":-2.2872861463
   },
   {
-    "fecha":"2016-04-01",
+    "fecha":"2016-05-01",
     "original":163.9855325825,
     "desestacionalizada":166.6043401145,
     "tendencia_ciclo":-1.8668152709
   },
   {
-    "fecha":"2016-05-01",
+    "fecha":"2016-06-01",
     "original":157.5416459702,
     "desestacionalizada":159.6605333087,
     "tendencia_ciclo":-1.3387433416
   },
   {
-    "fecha":"2016-06-01",
+    "fecha":"2016-07-01",
     "original":156.2301849117,
     "desestacionalizada":161.672957346,
     "tendencia_ciclo":-0.7527971064
   },
   {
-    "fecha":"2016-07-01",
+    "fecha":"2016-08-01",
     "original":185.6518669576,
     "desestacionalizada":170.3458000915,
     "tendencia_ciclo":-0.1088066902
   },
   {
-    "fecha":"2016-08-01",
+    "fecha":"2016-09-01",
     "original":189.0691391009,
     "desestacionalizada":171.2405014602,
     "tendencia_ciclo":0.5268326875
   },
   {
-    "fecha":"2016-09-01",
+    "fecha":"2016-10-01",
     "original":175.2402362705,
     "desestacionalizada":163.5350870957,
     "tendencia_ciclo":1.0772198552
   },
   {
-    "fecha":"2016-10-01",
+    "fecha":"2016-11-01",
     "original":182.7961256066,
     "desestacionalizada":167.5889957197,
     "tendencia_ciclo":1.5000253718
   },
   {
-    "fecha":"2016-11-01",
+    "fecha":"2016-12-01",
     "original":165.4378445866,
     "desestacionalizada":176.3165720618,
     "tendencia_ciclo":1.7320603736
   },
   {
-    "fecha":"2016-12-01",
+    "fecha":"2017-01-01",
     "original":164.3477674172,
     "desestacionalizada":177.9858834363,
     "tendencia_ciclo":1.8357423063
   },
   {
-    "fecha":"2017-01-01",
+    "fecha":"2017-02-01",
     "original":150.1088750024,
     "desestacionalizada":171.8723663406,
     "tendencia_ciclo":1.8676604771
   },
   {
-    "fecha":"2017-02-01",
+    "fecha":"2017-03-01",
     "original":191.9063328542,
     "desestacionalizada":184.1910331059,
     "tendencia_ciclo":1.8693034907
   },
   {
-    "fecha":"2017-03-01",
+    "fecha":"2017-04-01",
     "original":167.8746187879,
     "desestacionalizada":181.6831005747,
     "tendencia_ciclo":1.8363792702
   },
   {
-    "fecha":"2017-04-01",
+    "fecha":"2017-05-01",
     "original":183.8198574913,
     "desestacionalizada":183.0737472986,
     "tendencia_ciclo":1.7903579255
   },
   {
-    "fecha":"2017-05-01",
+    "fecha":"2017-06-01",
     "original":191.4070326518,
     "desestacionalizada":191.9664624371,
     "tendencia_ciclo":1.7530252383
   },
   {
-    "fecha":"2017-06-01",
+    "fecha":"2017-07-01",
     "original":189.4811596204,
     "desestacionalizada":195.559271392,
     "tendencia_ciclo":1.7333035532
   },
   {
-    "fecha":"2017-07-01",
+    "fecha":"2017-08-01",
     "original":212.8710506187,
     "desestacionalizada":195.8025676302,
     "tendencia_ciclo":1.6667877796
   },
   {
-    "fecha":"2017-08-01",
+    "fecha":"2017-09-01",
     "original":212.8037390382,
     "desestacionalizada":198.6482324749,
     "tendencia_ciclo":1.5208791221
   },
   {
-    "fecha":"2017-09-01",
+    "fecha":"2017-10-01",
     "original":223.9046425763,
     "desestacionalizada":203.9389561413,
     "tendencia_ciclo":1.3141020962
   },
   {
-    "fecha":"2017-10-01",
+    "fecha":"2017-11-01",
     "original":224.4362311699,
     "desestacionalizada":208.5266193394,
     "tendencia_ciclo":1.0348275785
   },
   {
-    "fecha":"2017-11-01",
+    "fecha":"2017-12-01",
     "original":191.0016619582,
     "desestacionalizada":209.4430262867,
     "tendencia_ciclo":0.6708277688
   },
   {
-    "fecha":"2017-12-01",
+    "fecha":"2018-01-01",
     "original":196.3650690838,
     "desestacionalizada":207.1924183086,
     "tendencia_ciclo":0.2354946035
   },
   {
-    "fecha":"2018-01-01",
+    "fecha":"2018-02-01",
     "original":179.0923836123,
     "desestacionalizada":201.9160711803,
     "tendencia_ciclo":-0.2568543823
   },
   {
-    "fecha":"2018-02-01",
+    "fecha":"2018-03-01",
     "original":207.9385648363,
     "desestacionalizada":204.9168138935,
     "tendencia_ciclo":-0.7322773395
   },
   {
-    "fecha":"2018-03-01",
+    "fecha":"2018-04-01",
     "original":192.0363059413,
     "desestacionalizada":203.3344836683,
     "tendencia_ciclo":-1.1571549144
   },
   {
-    "fecha":"2018-04-01",
+    "fecha":"2018-05-01",
     "original":196.3506901109,
     "desestacionalizada":196.0343634831,
     "tendencia_ciclo":-1.5061297031
   },
   {
-    "fecha":"2018-05-01",
+    "fecha":"2018-06-01",
     "original":191.2562476951,
     "desestacionalizada":196.7363272699,
     "tendencia_ciclo":-1.7925000075
   },
   {
-    "fecha":"2018-06-01",
+    "fecha":"2018-07-01",
     "original":191.0642406997,
     "desestacionalizada":189.5954252238,
     "tendencia_ciclo":-1.9910028272
   },
   {
-    "fecha":"2018-07-01",
+    "fecha":"2018-08-01",
     "original":212.8965385862,
     "desestacionalizada":194.0943709805,
     "tendencia_ciclo":-2.0521449983
   },
   {
-    "fecha":"2018-08-01",
+    "fecha":"2018-09-01",
     "original":204.639676119,
     "desestacionalizada":198.1097063349,
     "tendencia_ciclo":-1.9341838226
   },
   {
-    "fecha":"2018-09-01",
+    "fecha":"2018-10-01",
     "original":209.5438523221,
     "desestacionalizada":186.9620337146,
     "tendencia_ciclo":-1.6183486824
   },
   {
-    "fecha":"2018-10-01",
+    "fecha":"2018-11-01",
     "original":188.6497053847,
     "desestacionalizada":172.9573260479,
     "tendencia_ciclo":-1.0967751281
   },
   {
-    "fecha":"2018-11-01",
+    "fecha":"2018-12-01",
     "original":151.5707036692,
     "desestacionalizada":168.1388150548,
     "tendencia_ciclo":-0.391448652
   },
   {
-    "fecha":"2018-12-01",
+    "fecha":"2019-01-01",
     "original":165.577984281,
     "desestacionalizada":175.5040502235,
     "tendencia_ciclo":0.3438041394
   },
   {
-    "fecha":"2019-01-01",
+    "fecha":"2019-02-01",
     "original":169.5554276345,
     "desestacionalizada":191.4452333513,
     "tendencia_ciclo":0.9166671681
   },
   {
-    "fecha":"2019-02-01",
+    "fecha":"2019-03-01",
     "original":182.4595909388,
     "desestacionalizada":185.6391279245,
     "tendencia_ciclo":1.1552422981
   },
   {
-    "fecha":"2019-03-01",
+    "fecha":"2019-04-01",
     "original":177.5047787235,
     "desestacionalizada":182.5648786945,
     "tendencia_ciclo":1.0115236462
   },
   {
-    "fecha":"2019-04-01",
+    "fecha":"2019-05-01",
     "original":189.6113825811,
     "desestacionalizada":188.8151196337,
     "tendencia_ciclo":0.4814330662
   },
   {
-    "fecha":"2019-05-01",
+    "fecha":"2019-06-01",
     "original":168.593872062,
     "desestacionalizada":180.782869983,
     "tendencia_ciclo":-0.3113580751
   },
   {
-    "fecha":"2019-06-01",
+    "fecha":"2019-07-01",
     "original":187.5281901287,
     "desestacionalizada":181.4361278216,
     "tendencia_ciclo":-1.2172760565
   },
   {
-    "fecha":"2019-07-01",
+    "fecha":"2019-08-01",
     "original":200.0205807948,
     "desestacionalizada":185.5213360467,
     "tendencia_ciclo":-2.1240089775
   },
   {
-    "fecha":"2019-08-01",
+    "fecha":"2019-09-01",
     "original":186.8548270473,
     "desestacionalizada":176.716239022,
     "tendencia_ciclo":-2.9406855325
   },
   {
-    "fecha":"2019-09-01",
+    "fecha":"2019-10-01",
     "original":189.7396504478,
     "desestacionalizada":167.6242124141,
     "tendencia_ciclo":-3.6397711239
   },
   {
-    "fecha":"2019-10-01",
+    "fecha":"2019-11-01",
     "original":178.8757244142,
     "desestacionalizada":168.0056871363,
     "tendencia_ciclo":-4.2357448664
   },
   {
-    "fecha":"2019-11-01",
+    "fecha":"2019-12-01",
     "original":141.9347940351,
     "desestacionalizada":153.0493738741,
     "tendencia_ciclo":-4.6470913118
   },
   {
-    "fecha":"2019-12-01",
+    "fecha":"2020-01-01",
     "original":143.251252758,
     "desestacionalizada":151.3933318864,
     "tendencia_ciclo":-4.7249243518
   },
   {
-    "fecha":"2020-01-01",
+    "fecha":"2020-02-01",
     "original":132.075277067,
     "desestacionalizada":153.3862798111,
     "tendencia_ciclo":-4.2986115484
   },
   {
-    "fecha":"2020-02-01",
+    "fecha":"2020-03-01",
     "original":96.4765665608,
     "desestacionalizada":94.6135576894,
     "tendencia_ciclo":-3.1523362005
   },
   {
-    "fecha":"2020-03-01",
+    "fecha":"2020-04-01",
     "original":42.2076767418,
     "desestacionalizada":46.8906067458,
     "tendencia_ciclo":-1.3512882157
   },
   {
-    "fecha":"2020-04-01",
+    "fecha":"2020-05-01",
     "original":97.3194310901,
     "desestacionalizada":105.4214577516,
     "tendencia_ciclo":0.8513941157
   },
   {
-    "fecha":"2020-05-01",
+    "fecha":"2020-06-01",
     "original":143.8020922738,
     "desestacionalizada":146.1617792011,
     "tendencia_ciclo":3.0408190938
   },
   {
-    "fecha":"2020-06-01",
+    "fecha":"2020-07-01",
     "original":163.3360813579,
     "desestacionalizada":154.7499687647,
     "tendencia_ciclo":4.6802218678
   },
   {
-    "fecha":"2020-07-01",
+    "fecha":"2020-08-01",
     "original":164.7638900132,
     "desestacionalizada":157.0282497133,
     "tendencia_ciclo":5.5073303208
   },
   {
-    "fecha":"2020-08-01",
+    "fecha":"2020-09-01",
     "original":179.6625394916,
     "desestacionalizada":162.5158772836,
     "tendencia_ciclo":5.559868058
   },
   {
-    "fecha":"2020-09-01",
+    "fecha":"2020-10-01",
     "original":187.9488736594,
     "desestacionalizada":168.0684650536,
     "tendencia_ciclo":5.0295168842
   },
   {
-    "fecha":"2020-10-01",
+    "fecha":"2020-11-01",
     "original":190.0443478445,
     "desestacionalizada":181.9321825564,
     "tendencia_ciclo":4.1841260967
   },
   {
-    "fecha":"2020-11-01",
+    "fecha":"2020-12-01",
     "original":180.8453961426,
     "desestacionalizada":190.3410218123,
     "tendencia_ciclo":3.17185994
   },
   {
-    "fecha":"2020-12-01",
+    "fecha":"2021-01-01",
     "original":176.6130039644,
     "desestacionalizada":196.9160539286,
     "tendencia_ciclo":2.1295371387
   },
   {
-    "fecha":"2021-01-01",
+    "fecha":"2021-02-01",
     "original":162.0109195157,
     "desestacionalizada":187.4423863668,
     "tendencia_ciclo":1.1918019115
   },
   {
-    "fecha":"2021-02-01",
+    "fecha":"2021-03-01",
     "original":192.774984602,
     "desestacionalizada":189.2593692563,
     "tendencia_ciclo":0.3919312684
   },
   {
-    "fecha":"2021-03-01",
+    "fecha":"2021-04-01",
     "original":178.0991369304,
     "desestacionalizada":181.2090422899,
     "tendencia_ciclo":-0.196444574
   },
   {
-    "fecha":"2021-04-01",
+    "fecha":"2021-05-01",
     "original":165.854568349,
     "desestacionalizada":177.1606909642,
     "tendencia_ciclo":-0.5111826192
   },
   {
-    "fecha":"2021-05-01",
+    "fecha":"2021-06-01",
     "original":184.6879835793,
     "desestacionalizada":186.6078977951,
     "tendencia_ciclo":-0.6204337765
   },
   {
-    "fecha":"2021-06-01",
+    "fecha":"2021-07-01",
     "original":193.7086393112,
     "desestacionalizada":188.113746827,
     "tendencia_ciclo":-0.502696487
   },
   {
-    "fecha":"2021-07-01",
+    "fecha":"2021-08-01",
     "original":202.1421621947,
     "desestacionalizada":186.5918266185,
     "tendencia_ciclo":-0.1890167273
   },
   {
-    "fecha":"2021-08-01",
+    "fecha":"2021-09-01",
     "original":201.9272258788,
     "desestacionalizada":185.2057631346,
     "tendencia_ciclo":0.2280473977
   },
   {
-    "fecha":"2021-09-01",
+    "fecha":"2021-10-01",
     "original":202.6527131076,
     "desestacionalizada":188.3442651463,
     "tendencia_ciclo":0.6998051052
   },
   {
-    "fecha":"2021-10-01",
+    "fecha":"2021-11-01",
     "original":204.5934039211,
     "desestacionalizada":190.4571785636,
     "tendencia_ciclo":1.1625568027
   },
   {
-    "fecha":"2021-11-01",
+    "fecha":"2021-12-01",
     "original":189.0596062242,
     "desestacionalizada":198.5738922292,
     "tendencia_ciclo":1.5080060289
   },
   {
-    "fecha":"2021-12-01",
+    "fecha":"2022-01-01",
     "original":167.8827842518,
     "desestacionalizada":188.200533552,
     "tendencia_ciclo":1.6495202018
   },
   {
-    "fecha":"2022-01-01",
+    "fecha":"2022-02-01",
     "original":173.7538852197,
     "desestacionalizada":199.5750269327,
     "tendencia_ciclo":1.5042353419
   },
   {
-    "fecha":"2022-02-01",
+    "fecha":"2022-03-01",
     "original":196.6671418699,
     "desestacionalizada":194.1755397866,
     "tendencia_ciclo":1.1001282935
   },
   {
-    "fecha":"2022-03-01",
+    "fecha":"2022-04-01",
     "original":192.6164463198,
     "desestacionalizada":200.6956476095,
     "tendencia_ciclo":0.5001483205
   },
   {
-    "fecha":"2022-04-01",
+    "fecha":"2022-05-01",
     "original":197.8777736968,
     "desestacionalizada":202.7530537901,
     "tendencia_ciclo":-0.2080495178
   },
   {
-    "fecha":"2022-05-01",
+    "fecha":"2022-06-01",
     "original":196.9770939292,
     "desestacionalizada":199.6051266339,
     "tendencia_ciclo":-0.8788456859
   },
   {
-    "fecha":"2022-06-01",
+    "fecha":"2022-07-01",
     "original":202.5961820544,
     "desestacionalizada":202.1780251454,
     "tendencia_ciclo":-1.3886379108
   },
   {
-    "fecha":"2022-07-01",
+    "fecha":"2022-08-01",
     "original":215.791097068,
     "desestacionalizada":195.9432130902,
     "tendencia_ciclo":-1.6326907127
   },
   {
-    "fecha":"2022-08-01",
+    "fecha":"2022-09-01",
     "original":210.9337578163,
     "desestacionalizada":192.2276783019,
     "tendencia_ciclo":-1.5351672318
   },
   {
-    "fecha":"2022-09-01",
+    "fecha":"2022-10-01",
     "original":201.8771088247,
     "desestacionalizada":188.2920818713,
     "tendencia_ciclo":-1.124848619
   },
   {
-    "fecha":"2022-10-01",
+    "fecha":"2022-11-01",
     "original":201.6300618312,
     "desestacionalizada":187.5378257428,
     "tendencia_ciclo":-0.5191757448
   },
   {
-    "fecha":"2022-11-01",
+    "fecha":"2022-12-01",
     "original":169.2168032081,
     "desestacionalizada":182.6346870886,
     "tendencia_ciclo":0.1478703877
   },
   {
-    "fecha":"2022-12-01",
+    "fecha":"2023-01-01",
     "original":172.3393493983,
     "desestacionalizada":185.5109099139,
     "tendencia_ciclo":0.6726867737
   },
   {
-    "fecha":"2023-01-01",
+    "fecha":"2023-02-01",
     "original":162.2269554999,
     "desestacionalizada":183.6236559739,
     "tendencia_ciclo":0.9372376364
   },
   {
-    "fecha":"2023-02-01",
+    "fecha":"2023-03-01",
     "original":199.4874498476,
     "desestacionalizada":196.9954283331,
     "tendencia_ciclo":0.8906975178
   },
   {
-    "fecha":"2023-03-01",
+    "fecha":"2023-04-01",
     "original":184.8342221478,
     "desestacionalizada":198.7381139222,
     "tendencia_ciclo":0.5987415378
   },
   {
-    "fecha":"2023-04-01",
+    "fecha":"2023-05-01",
     "original":192.2316104407,
     "desestacionalizada":193.3206309581,
     "tendencia_ciclo":0.1613264593
   },
   {
-    "fecha":"2023-05-01",
+    "fecha":"2023-06-01",
     "original":191.4397281181,
     "desestacionalizada":191.8232286546,
     "tendencia_ciclo":-0.3362415854
   },
   {
-    "fecha":"2023-06-01",
+    "fecha":"2023-07-01",
     "original":190.8104072769,
     "desestacionalizada":190.7053703999,
     "tendencia_ciclo":-0.8751738682
   },
   {
-    "fecha":"2023-07-01",
+    "fecha":"2023-08-01",
     "original":209.2525592472,
     "desestacionalizada":189.4580995047,
     "tendencia_ciclo":-1.5165130224
   },
   {
-    "fecha":"2023-08-01",
+    "fecha":"2023-09-01",
     "original":201.3845682273,
     "desestacionalizada":188.0420674744,
     "tendencia_ciclo":-2.3087600925
   },
   {
-    "fecha":"2023-09-01",
+    "fecha":"2023-10-01",
     "original":207.8992926964,
     "desestacionalizada":187.4263834169,
     "tendencia_ciclo":-3.2600450828
   },
   {
-    "fecha":"2023-10-01",
+    "fecha":"2023-11-01",
     "original":197.4347278742,
     "desestacionalizada":184.9597928908,
     "tendencia_ciclo":-4.2796705627
   },
   {
-    "fecha":"2023-11-01",
+    "fecha":"2023-12-01",
     "original":148.6210552718,
     "desestacionalizada":167.2880297427,
     "tendencia_ciclo":-5.1799005595
   },
   {
-    "fecha":"2023-12-01",
+    "fecha":"2024-01-01",
     "original":134.4421970197,
     "desestacionalizada":142.9636149681,
     "tendencia_ciclo":-5.7009044095
   },
   {
-    "fecha":"2024-01-01",
+    "fecha":"2024-02-01",
     "original":120.9719132433,
     "desestacionalizada":137.0872641366,
     "tendencia_ciclo":-5.6041071893
   },
   {
-    "fecha":"2024-02-01",
+    "fecha":"2024-03-01",
     "original":114.9486968289,
     "desestacionalizada":120.4158746718,
     "tendencia_ciclo":-4.777721655
   },
   {
-    "fecha":"2024-03-01",
+    "fecha":"2024-04-01",
     "original":115.6665652927,
     "desestacionalizada":118.9394213462,
     "tendencia_ciclo":-3.3393530096
   },
   {
-    "fecha":"2024-04-01",
+    "fecha":"2024-05-01",
     "original":129.369568888,
     "desestacionalizada":129.5743478785,
     "tendencia_ciclo":-1.6593453648
   },
   {
-    "fecha":"2024-05-01",
+    "fecha":"2024-06-01",
     "original":123.1242048853,
     "desestacionalizada":132.8879306596,
     "tendencia_ciclo":-0.1513550963
   },
   {
-    "fecha":"2024-06-01",
+    "fecha":"2024-07-01",
     "original":151.515538396,
     "desestacionalizada":142.091336267,
     "tendencia_ciclo":0.8864172675
   },
   {
-    "fecha":"2024-07-01",
+    "fecha":"2024-08-01",
     "original":153.533720718,
     "desestacionalizada":139.8082393936,
     "tendencia_ciclo":1.425965041
   },
   {
-    "fecha":"2024-08-01",
+    "fecha":"2024-09-01",
     "original":150.4954154636,
     "desestacionalizada":141.7970227703,
     "tendencia_ciclo":1.6204981512
   },
   {
-    "fecha":"2024-09-01",
+    "fecha":"2024-10-01",
     "original":155.695238,
     "desestacionalizada":134.3215850521,
     "tendencia_ciclo":1.662107317
   },
   {
-    "fecha":"2024-10-01",
+    "fecha":"2024-11-01",
     "original":149.2596703827,
     "desestacionalizada":141.1144089081,
     "tendencia_ciclo":1.6685461959
   },
   {
-    "fecha":"2024-11-01",
+    "fecha":"2024-12-01",
     "original":132.5369007893,
     "desestacionalizada":144.9603292702,
     "tendencia_ciclo":1.6596079714
   },
   {
-    "fecha":"2024-12-01",
+    "fecha":"2025-01-01",
     "original":132.504222811,
     "desestacionalizada":140.2375219186,
     "tendencia_ciclo":1.5662265306
   },
   {
-    "fecha":"2025-01-01",
+    "fecha":"2025-02-01",
     "original":125.7698905887,
     "desestacionalizada":144.1630937039,
     "tendencia_ciclo":1.3139479438
   },
   {
-    "fecha":"2025-02-01",
+    "fecha":"2025-03-01",
     "original":132.6908400073,
     "desestacionalizada":140.3349182957,
     "tendencia_ciclo":0.8651410702
   },
   {
-    "fecha":"2025-03-01",
+    "fecha":"2025-04-01",
     "original":146.2836135638,
     "desestacionalizada":148.7174542553,
     "tendencia_ciclo":0.2874980378
   },
   {
-    "fecha":"2025-04-01",
+    "fecha":"2025-05-01",
     "original":141.3466137899,
     "desestacionalizada":145.4293374029,
     "tendencia_ciclo":-0.2901001575
   },
   {
-    "fecha":"2025-05-01",
+    "fecha":"2025-06-01",
     "original":140.1880267071,
     "desestacionalizada":146.9262748313,
     "tendencia_ciclo":-0.7330019905
   },
   {
-    "fecha":"2025-06-01",
+    "fecha":"2025-07-01",
     "original":154.3847453344,
     "desestacionalizada":145.1589137739,
     "tendencia_ciclo":-0.9434295032
   },
   {
-    "fecha":"2025-07-01",
+    "fecha":"2025-08-01",
     "original":153.5553428276,
     "desestacionalizada":145.1944851732,
     "tendencia_ciclo":-0.8806367721
   },
   {
-    "fecha":"2025-08-01",
+    "fecha":"2025-09-01",
     "original":160.5159697489,
     "desestacionalizada":146.6007811001,
     "tendencia_ciclo":-0.5767975032
   },
   {
-    "fecha":"2025-09-01",
+    "fecha":"2025-10-01",
     "original":168.3947517179,
     "desestacionalizada":146.0562036419,
     "tendencia_ciclo":-0.1450749779
   },
   {
-    "fecha":"2025-10-01",
+    "fecha":"2025-11-01",
     "original":142.3905467693,
     "desestacionalizada":140.5450056845,
     "tendencia_ciclo":0.3037501495
   },
   {
-    "fecha":"2025-11-01",
+    "fecha":"2025-12-01",
     "original":136.4151360682,
     "desestacionalizada":145.3031089433,
     "tendencia_ciclo":0.6538472764
   },
   {
-    "fecha":"2025-12-01",
+    "fecha":"2026-01-01",
     "original":134.1459315832,
     "desestacionalizada":145.3135956289,
     "tendencia_ciclo":0.8171825959

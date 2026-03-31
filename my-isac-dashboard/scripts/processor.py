@@ -37,7 +37,7 @@ def procesar_isac(input_path: Path, public_dir: Path, processed_dir: Path) -> No
 
         # ── CUADRO 1: Nivel General ─────────────────────────────────────────
         print("\n[Cuadro 1] Nivel General")
-        df1 = pd.read_excel(xls, sheet_name='Cuadro 1', usecols=[1, 2, 6, 10], skiprows=6)
+        df1 = pd.read_excel(xls, sheet_name='Cuadro 1', usecols=[1, 2, 6, 10], skiprows=5)
         df1.columns = ['mes', 'original', 'desestacionalizada', 'tendencia_ciclo']
         df1 = limpiar_y_fechar(df1, 'original', '2012-01-01')
         guardar_json(
@@ -61,7 +61,7 @@ def procesar_isac(input_path: Path, public_dir: Path, processed_dir: Path) -> No
         }
         for sheet, (filename, label) in mapa_insumos.items():
             print(f"\n[{sheet}] Insumos {label}")
-            df = pd.read_excel(xls, sheet_name=sheet, usecols=range(1, 15), skiprows=4)
+            df = pd.read_excel(xls, sheet_name=sheet, usecols=range(1, 15), skiprows=3)
             df.columns = ['mes_texto'] + INSUMOS
             df = limpiar_y_fechar(df, 'articulos_sanitarios', '2012-01-01')
             guardar_json(
