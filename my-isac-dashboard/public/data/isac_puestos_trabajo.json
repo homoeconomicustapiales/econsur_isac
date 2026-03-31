@@ -1,482 +1,526 @@
 [
   {
-    "fecha": "2015-01-01",
-    "puestos_trabajo": 336836.0
+    "fecha":"2015-01-01",
+    "puestos_trabajo":430069.0
   },
   {
-    "fecha": "2015-02-01",
-    "puestos_trabajo": 329802.0
+    "fecha":"2015-02-01",
+    "puestos_trabajo":441669.0
   },
   {
-    "fecha": "2015-03-01",
-    "puestos_trabajo": 334926.0
+    "fecha":"2015-03-01",
+    "puestos_trabajo":447691.0
   },
   {
-    "fecha": "2015-04-01",
-    "puestos_trabajo": 330079.0
+    "fecha":"2015-04-01",
+    "puestos_trabajo":451500.0
   },
   {
-    "fecha": "2015-05-01",
-    "puestos_trabajo": 326978.0
+    "fecha":"2015-05-01",
+    "puestos_trabajo":458433.0
   },
   {
-    "fecha": "2015-06-01",
-    "puestos_trabajo": 330586.0
+    "fecha":"2015-06-01",
+    "puestos_trabajo":458433.0
   },
   {
-    "fecha": "2015-07-01",
-    "puestos_trabajo": 330855.0
+    "fecha":"2015-07-01",
+    "puestos_trabajo":453605.0
   },
   {
-    "fecha": "2015-08-01",
-    "puestos_trabajo": 330297.0
+    "fecha":"2015-08-01",
+    "puestos_trabajo":456354.0
   },
   {
-    "fecha": "2015-09-01",
-    "puestos_trabajo": 334302.0
+    "fecha":"2015-09-01",
+    "puestos_trabajo":455447.0
   },
   {
-    "fecha": "2015-10-01",
-    "puestos_trabajo": 333454.0
+    "fecha":"2015-10-01",
+    "puestos_trabajo":448103.0
   },
   {
-    "fecha": "2015-11-01",
-    "puestos_trabajo": 335857.0
+    "fecha":"2015-11-01",
+    "puestos_trabajo":421659.0
   },
   {
-    "fecha": "2015-12-01",
-    "puestos_trabajo": 332147.0
+    "fecha":"2015-12-01",
+    "puestos_trabajo":408799.0
   },
   {
-    "fecha": "2016-01-01",
-    "puestos_trabajo": 336429.0
+    "fecha":"2016-01-01",
+    "puestos_trabajo":403220.0
   },
   {
-    "fecha": "2016-02-01",
-    "puestos_trabajo": 334760.0
+    "fecha":"2016-02-01",
+    "puestos_trabajo":402102.0
   },
   {
-    "fecha": "2016-03-01",
-    "puestos_trabajo": 335296.0
+    "fecha":"2016-03-01",
+    "puestos_trabajo":398869.0
   },
   {
-    "fecha": "2016-04-01",
-    "puestos_trabajo": 333141.0
+    "fecha":"2016-04-01",
+    "puestos_trabajo":398587.0
   },
   {
-    "fecha": "2016-05-01",
-    "puestos_trabajo": 330700.0
+    "fecha":"2016-05-01",
+    "puestos_trabajo":396286.0
   },
   {
-    "fecha": "2016-06-01",
-    "puestos_trabajo": 329861.0
+    "fecha":"2016-06-01",
+    "puestos_trabajo":395602.0
   },
   {
-    "fecha": "2016-07-01",
-    "puestos_trabajo": 332613.0
+    "fecha":"2016-07-01",
+    "puestos_trabajo":400965.0
   },
   {
-    "fecha": "2016-08-01",
-    "puestos_trabajo": 331878.0
+    "fecha":"2016-08-01",
+    "puestos_trabajo":403928.0
   },
   {
-    "fecha": "2016-09-01",
-    "puestos_trabajo": 332462.0
+    "fecha":"2016-09-01",
+    "puestos_trabajo":406237.0
   },
   {
-    "fecha": "2016-10-01",
-    "puestos_trabajo": 331047.0
+    "fecha":"2016-10-01",
+    "puestos_trabajo":412037.0
   },
   {
-    "fecha": "2016-11-01",
-    "puestos_trabajo": 335019.0
+    "fecha":"2016-11-01",
+    "puestos_trabajo":403418.0
   },
   {
-    "fecha": "2016-12-01",
-    "puestos_trabajo": 330624.0
+    "fecha":"2016-12-01",
+    "puestos_trabajo":407245.6047303617
   },
   {
-    "fecha": "2017-01-01",
-    "puestos_trabajo": 325594.0
+    "fecha":"2017-01-01",
+    "puestos_trabajo":410432.8823024402
   },
   {
-    "fecha": "2017-02-01",
-    "puestos_trabajo": 329837.0
+    "fecha":"2017-02-01",
+    "puestos_trabajo":423977.9877522268
   },
   {
-    "fecha": "2017-03-01",
-    "puestos_trabajo": 323353.0
+    "fecha":"2017-03-01",
+    "puestos_trabajo":420417.309875896
   },
   {
-    "fecha": "2017-04-01",
-    "puestos_trabajo": 328516.0
+    "fecha":"2017-04-01",
+    "puestos_trabajo":428903.8485861454
   },
   {
-    "fecha": "2017-05-01",
-    "puestos_trabajo": 328470.0
+    "fecha":"2017-05-01",
+    "puestos_trabajo":434173.3417495714
   },
   {
-    "fecha": "2017-06-01",
-    "puestos_trabajo": 329774.0
+    "fecha":"2017-06-01",
+    "puestos_trabajo":437323.8454650681
   },
   {
-    "fecha": "2017-07-01",
-    "puestos_trabajo": 330744.0
+    "fecha":"2017-07-01",
+    "puestos_trabajo":442815.0729612772
   },
   {
-    "fecha": "2017-08-01",
-    "puestos_trabajo": 328771.0
+    "fecha":"2017-08-01",
+    "puestos_trabajo":447812.6924002962
   },
   {
-    "fecha": "2017-09-01",
-    "puestos_trabajo": 330325.0
+    "fecha":"2017-09-01",
+    "puestos_trabajo":453895.8196558357
   },
   {
-    "fecha": "2017-10-01",
-    "puestos_trabajo": 336437.0
+    "fecha":"2017-10-01",
+    "puestos_trabajo":458146.8235373849
   },
   {
-    "fecha": "2017-11-01",
-    "puestos_trabajo": 340097.0
+    "fecha":"2017-11-01",
+    "puestos_trabajo":444794.1042447136
   },
   {
-    "fecha": "2017-12-01",
-    "puestos_trabajo": 337960.0
+    "fecha":"2017-12-01",
+    "puestos_trabajo":447554.9198133347
   },
   {
-    "fecha": "2018-01-01",
-    "puestos_trabajo": 341680.0
+    "fecha":"2018-01-01",
+    "puestos_trabajo":446899.4490863301
   },
   {
-    "fecha": "2018-02-01",
-    "puestos_trabajo": 338163.0
+    "fecha":"2018-02-01",
+    "puestos_trabajo":455106.3453894464
   },
   {
-    "fecha": "2018-03-01",
-    "puestos_trabajo": 337508.0
+    "fecha":"2018-03-01",
+    "puestos_trabajo":454109.8538845923
   },
   {
-    "fecha": "2018-04-01",
-    "puestos_trabajo": 337945.0
+    "fecha":"2018-04-01",
+    "puestos_trabajo":454826.3073478349
   },
   {
-    "fecha": "2018-05-01",
-    "puestos_trabajo": 341677.0
+    "fecha":"2018-05-01",
+    "puestos_trabajo":447787.2483265363
   },
   {
-    "fecha": "2018-06-01",
-    "puestos_trabajo": 337521.0
+    "fecha":"2018-06-01",
+    "puestos_trabajo":447143.0965374408
   },
   {
-    "fecha": "2018-07-01",
-    "puestos_trabajo": 340673.0
+    "fecha":"2018-07-01",
+    "puestos_trabajo":448399.5055015702
   },
   {
-    "fecha": "2018-08-01",
-    "puestos_trabajo": 339437.0
+    "fecha":"2018-08-01",
+    "puestos_trabajo":441548.5157752656
   },
   {
-    "fecha": "2018-09-01",
-    "puestos_trabajo": 334521.0
+    "fecha":"2018-09-01",
+    "puestos_trabajo":443497.2407613975
   },
   {
-    "fecha": "2018-10-01",
-    "puestos_trabajo": 337514.0
+    "fecha":"2018-10-01",
+    "puestos_trabajo":440166.1344740666
   },
   {
-    "fecha": "2018-11-01",
-    "puestos_trabajo": 336265.0
+    "fecha":"2018-11-01",
+    "puestos_trabajo":429007.3974599243
   },
   {
-    "fecha": "2018-12-01",
-    "puestos_trabajo": 330254.0
+    "fecha":"2018-12-01",
+    "puestos_trabajo":437027.353129158
   },
   {
-    "fecha": "2019-01-01",
-    "puestos_trabajo": 332644.0
+    "fecha":"2019-01-01",
+    "puestos_trabajo":442596.7475588353
   },
   {
-    "fecha": "2019-02-01",
-    "puestos_trabajo": 327585.0
+    "fecha":"2019-02-01",
+    "puestos_trabajo":445867.5723959724
   },
   {
-    "fecha": "2019-03-01",
-    "puestos_trabajo": 326451.0
+    "fecha":"2019-03-01",
+    "puestos_trabajo":442906.9484200299
   },
   {
-    "fecha": "2019-04-01",
-    "puestos_trabajo": 323072.0
+    "fecha":"2019-04-01",
+    "puestos_trabajo":443224.9917997071
   },
   {
-    "fecha": "2019-05-01",
-    "puestos_trabajo": 320639.0
+    "fecha":"2019-05-01",
+    "puestos_trabajo":434100.3981721827
   },
   {
-    "fecha": "2019-06-01",
-    "puestos_trabajo": 323906.0
+    "fecha":"2019-06-01",
+    "puestos_trabajo":435485.1601838706
   },
   {
-    "fecha": "2019-07-01",
-    "puestos_trabajo": 325811.0
+    "fecha":"2019-07-01",
+    "puestos_trabajo":432919.7387157741
   },
   {
-    "fecha": "2019-08-01",
-    "puestos_trabajo": 321287.0
+    "fecha":"2019-08-01",
+    "puestos_trabajo":422171.0036394192
   },
   {
-    "fecha": "2019-09-01",
-    "puestos_trabajo": 320611.0
+    "fecha":"2019-09-01",
+    "puestos_trabajo":411775.0390585461
   },
   {
-    "fecha": "2019-10-01",
-    "puestos_trabajo": 320815.0
+    "fecha":"2019-10-01",
+    "puestos_trabajo":403823.6220830715
   },
   {
-    "fecha": "2019-11-01",
-    "puestos_trabajo": 324885.0
+    "fecha":"2019-11-01",
+    "puestos_trabajo":384770.7710777897
   },
   {
-    "fecha": "2019-12-01",
-    "puestos_trabajo": 326267.0
+    "fecha":"2019-12-01",
+    "puestos_trabajo":376234.3147940849
   },
   {
-    "fecha": "2020-01-01",
-    "puestos_trabajo": 322637.0
+    "fecha":"2020-01-01",
+    "puestos_trabajo":369401.8431402783
   },
   {
-    "fecha": "2020-02-01",
-    "puestos_trabajo": 318763.0
+    "fecha":"2020-02-01",
+    "puestos_trabajo":359775.3420877063
   },
   {
-    "fecha": "2020-03-01",
-    "puestos_trabajo": 320755.0
+    "fecha":"2020-03-01",
+    "puestos_trabajo":320771.6170600988
   },
   {
-    "fecha": "2020-04-01",
-    "puestos_trabajo": 323046.0
+    "fecha":"2020-04-01",
+    "puestos_trabajo":312895.1159495162
   },
   {
-    "fecha": "2020-05-01",
-    "puestos_trabajo": 321244.0
+    "fecha":"2020-05-01",
+    "puestos_trabajo":312939.6996771838
   },
   {
-    "fecha": "2020-06-01",
-    "puestos_trabajo": 319365.0
+    "fecha":"2020-06-01",
+    "puestos_trabajo":308570.4053154878
   },
   {
-    "fecha": "2020-07-01",
-    "puestos_trabajo": 320894.0
+    "fecha":"2020-07-01",
+    "puestos_trabajo":311328.8204565236
   },
   {
-    "fecha": "2020-08-01",
-    "puestos_trabajo": 321763.0
+    "fecha":"2020-08-01",
+    "puestos_trabajo":318344.6168936323
   },
   {
-    "fecha": "2020-09-01",
-    "puestos_trabajo": 313872.0
+    "fecha":"2020-09-01",
+    "puestos_trabajo":327106.7709516714
   },
   {
-    "fecha": "2020-10-01",
-    "puestos_trabajo": 313058.0
+    "fecha":"2020-10-01",
+    "puestos_trabajo":333836.0372445787
   },
   {
-    "fecha": "2020-11-01",
-    "puestos_trabajo": 315529.0
+    "fecha":"2020-11-01",
+    "puestos_trabajo":329042.4762727679
   },
   {
-    "fecha": "2020-12-01",
-    "puestos_trabajo": 311076.0
+    "fecha":"2020-12-01",
+    "puestos_trabajo":336680.1289246758
   },
   {
-    "fecha": "2021-01-01",
-    "puestos_trabajo": 313688.0
+    "fecha":"2021-01-01",
+    "puestos_trabajo":342917.5724870068
   },
   {
-    "fecha": "2021-02-01",
-    "puestos_trabajo": 309945.0
+    "fecha":"2021-02-01",
+    "puestos_trabajo":355305.0177916544
   },
   {
-    "fecha": "2021-03-01",
-    "puestos_trabajo": 310641.0
+    "fecha":"2021-03-01",
+    "puestos_trabajo":357023.8315826367
   },
   {
-    "fecha": "2021-04-01",
-    "puestos_trabajo": 308104.0
+    "fecha":"2021-04-01",
+    "puestos_trabajo":356417.566150829
   },
   {
-    "fecha": "2021-05-01",
-    "puestos_trabajo": 303258.0
+    "fecha":"2021-05-01",
+    "puestos_trabajo":362379.2304248023
   },
   {
-    "fecha": "2021-06-01",
-    "puestos_trabajo": 303921.0
+    "fecha":"2021-06-01",
+    "puestos_trabajo":369009.8149207555
   },
   {
-    "fecha": "2021-07-01",
-    "puestos_trabajo": 303614.0
+    "fecha":"2021-07-01",
+    "puestos_trabajo":375821.6652079593
   },
   {
-    "fecha": "2021-08-01",
-    "puestos_trabajo": 308179.0
+    "fecha":"2021-08-01",
+    "puestos_trabajo":383260.7136898427
   },
   {
-    "fecha": "2021-09-01",
-    "puestos_trabajo": 310674.0
+    "fecha":"2021-09-01",
+    "puestos_trabajo":389962.8538597669
   },
   {
-    "fecha": "2021-10-01",
-    "puestos_trabajo": 305910.0
+    "fecha":"2021-10-01",
+    "puestos_trabajo":395949.5755144547
   },
   {
-    "fecha": "2021-11-01",
-    "puestos_trabajo": 306893.0
+    "fecha":"2021-11-01",
+    "puestos_trabajo":389157.7967026846
   },
   {
-    "fecha": "2021-12-01",
-    "puestos_trabajo": 309837.0
+    "fecha":"2021-12-01",
+    "puestos_trabajo":394269.726445058
   },
   {
-    "fecha": "2022-01-01",
-    "puestos_trabajo": 312383.0
+    "fecha":"2022-01-01",
+    "puestos_trabajo":401357.8660995622
   },
   {
-    "fecha": "2022-02-01",
-    "puestos_trabajo": 317964.0
+    "fecha":"2022-02-01",
+    "puestos_trabajo":412493.6620119732
   },
   {
-    "fecha": "2022-03-01",
-    "puestos_trabajo": 323824.0
+    "fecha":"2022-03-01",
+    "puestos_trabajo":414642.1528810816
   },
   {
-    "fecha": "2022-04-01",
-    "puestos_trabajo": 321704.0
+    "fecha":"2022-04-01",
+    "puestos_trabajo":420301.8657762737
   },
   {
-    "fecha": "2022-05-01",
-    "puestos_trabajo": 322869.0
+    "fecha":"2022-05-01",
+    "puestos_trabajo":424496.1303530067
   },
   {
-    "fecha": "2022-06-01",
-    "puestos_trabajo": 330073.0
+    "fecha":"2022-06-01",
+    "puestos_trabajo":430529.6452018268
   },
   {
-    "fecha": "2022-07-01",
-    "puestos_trabajo": 333908.0
+    "fecha":"2022-07-01",
+    "puestos_trabajo":435478.7097990224
   },
   {
-    "fecha": "2022-08-01",
-    "puestos_trabajo": 331896.0
+    "fecha":"2022-08-01",
+    "puestos_trabajo":443924.4145715153
   },
   {
-    "fecha": "2022-09-01",
-    "puestos_trabajo": 327322.0
+    "fecha":"2022-09-01",
+    "puestos_trabajo":449534.3850806909
   },
   {
-    "fecha": "2022-10-01",
-    "puestos_trabajo": 322653.0
+    "fecha":"2022-10-01",
+    "puestos_trabajo":457590.3111929651
   },
   {
-    "fecha": "2022-11-01",
-    "puestos_trabajo": 324621.0
+    "fecha":"2022-11-01",
+    "puestos_trabajo":446910.3873507582
   },
   {
-    "fecha": "2022-12-01",
-    "puestos_trabajo": 324298.0
+    "fecha":"2022-12-01",
+    "puestos_trabajo":448962.4984031381
   },
   {
-    "fecha": "2023-01-01",
-    "puestos_trabajo": 323749.0
+    "fecha":"2023-01-01",
+    "puestos_trabajo":450714.150289945
   },
   {
-    "fecha": "2023-02-01",
-    "puestos_trabajo": 322009.0
+    "fecha":"2023-02-01",
+    "puestos_trabajo":464697.1472444929
   },
   {
-    "fecha": "2023-03-01",
-    "puestos_trabajo": 319428.0
+    "fecha":"2023-03-01",
+    "puestos_trabajo":463652.2923111902
   },
   {
-    "fecha": "2023-04-01",
-    "puestos_trabajo": 321278.0
+    "fecha":"2023-04-01",
+    "puestos_trabajo":467337.0395008443
   },
   {
-    "fecha": "2023-05-01",
-    "puestos_trabajo": 321195.0
+    "fecha":"2023-05-01",
+    "puestos_trabajo":463335.9827007514
   },
   {
-    "fecha": "2023-06-01",
-    "puestos_trabajo": 322489.0
+    "fecha":"2023-06-01",
+    "puestos_trabajo":463921.383879592
   },
   {
-    "fecha": "2023-07-01",
-    "puestos_trabajo": 317577.0
+    "fecha":"2023-07-01",
+    "puestos_trabajo":465545.6537145952
   },
   {
-    "fecha": "2023-08-01",
-    "puestos_trabajo": 322946.0
+    "fecha":"2023-08-01",
+    "puestos_trabajo":459105.1231745696
   },
   {
-    "fecha": "2023-09-01",
-    "puestos_trabajo": 326483.0
+    "fecha":"2023-09-01",
+    "puestos_trabajo":452567.1337681827
   },
   {
-    "fecha": "2023-10-01",
-    "puestos_trabajo": 329695.0
+    "fecha":"2023-10-01",
+    "puestos_trabajo":445160.4806172555
   },
   {
-    "fecha": "2023-11-01",
-    "puestos_trabajo": 323504.0
+    "fecha":"2023-11-01",
+    "puestos_trabajo":417604.852651306
   },
   {
-    "fecha": "2023-12-01",
-    "puestos_trabajo": 326176.0
+    "fecha":"2023-12-01",
+    "puestos_trabajo":401344.8237148264
   },
   {
-    "fecha": "2024-01-01",
-    "puestos_trabajo": 321875.0
+    "fecha":"2024-01-01",
+    "puestos_trabajo":388164.0123893413
   },
   {
-    "fecha": "2024-02-01",
-    "puestos_trabajo": 323162.0
+    "fecha":"2024-02-01",
+    "puestos_trabajo":380709.5488354045
   },
   {
-    "fecha": "2024-03-01",
-    "puestos_trabajo": 326651.0
+    "fecha":"2024-03-01",
+    "puestos_trabajo":374989.8952841366
   },
   {
-    "fecha": "2024-04-01",
-    "puestos_trabajo": 329865.0
+    "fecha":"2024-04-01",
+    "puestos_trabajo":373456.2234820537
   },
   {
-    "fecha": "2024-05-01",
-    "puestos_trabajo": 332044.0
+    "fecha":"2024-05-01",
+    "puestos_trabajo":367107.9953263935
   },
   {
-    "fecha": "2024-06-01",
-    "puestos_trabajo": 337602.0
+    "fecha":"2024-06-01",
+    "puestos_trabajo":371695.4378504233
   },
   {
-    "fecha": "2024-07-01",
-    "puestos_trabajo": 338098.0
+    "fecha":"2024-07-01",
+    "puestos_trabajo":374274.4080355236
   },
   {
-    "fecha": "2024-08-01",
-    "puestos_trabajo": 335676.0
+    "fecha":"2024-08-01",
+    "puestos_trabajo":376899.7930829249
   },
   {
-    "fecha": "2024-09-01",
-    "puestos_trabajo": 334092.0
+    "fecha":"2024-09-01",
+    "puestos_trabajo":378841.5032046541
   },
   {
-    "fecha": "2024-10-01",
-    "puestos_trabajo": 334150.0
+    "fecha":"2024-10-01",
+    "puestos_trabajo":377524.0702675179
   },
   {
-    "fecha": "2024-11-01",
-    "puestos_trabajo": 336667.0
+    "fecha":"2024-11-01",
+    "puestos_trabajo":368826.7918633746
   },
   {
-    "fecha": "2024-12-01",
-    "puestos_trabajo": 333478.0
+    "fecha":"2024-12-01",
+    "puestos_trabajo":372890.5874593982
+  },
+  {
+    "fecha":"2025-01-01",
+    "puestos_trabajo":374455.2815887537
+  },
+  {
+    "fecha":"2025-02-01",
+    "puestos_trabajo":374610.0733410689
+  },
+  {
+    "fecha":"2025-03-01",
+    "puestos_trabajo":374408.1338333428
+  },
+  {
+    "fecha":"2025-04-01",
+    "puestos_trabajo":374179.5099893953
+  },
+  {
+    "fecha":"2025-05-01",
+    "puestos_trabajo":371733.0138185673
+  },
+  {
+    "fecha":"2025-06-01",
+    "puestos_trabajo":376047.9165305732
+  },
+  {
+    "fecha":"2025-07-01",
+    "puestos_trabajo":375417.5843301151
+  },
+  {
+    "fecha":"2025-08-01",
+    "puestos_trabajo":380227.728963896
+  },
+  {
+    "fecha":"2025-09-01",
+    "puestos_trabajo":383085.314453063
+  },
+  {
+    "fecha":"2025-10-01",
+    "puestos_trabajo":380320.7442432708
+  },
+  {
+    "fecha":"2025-11-01",
+    "puestos_trabajo":380879.7129941269
   }
 ]
