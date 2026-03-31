@@ -1,9 +1,0 @@
-{
-  "buildCommand": "cd my-isac-dashboard && npm run build",
-  "outputDirectory": "my-isac-dashboard/.next",
-  "installCommand": "cd my-isac-dashboard && npm install",
-  "framework": "nextjs",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/$1" }
-  ]
-}
